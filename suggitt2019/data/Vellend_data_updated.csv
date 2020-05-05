@@ -1,0 +1,461 @@
+Round,Data_set,Study,SR_analysis,Diversity_analysis,Evenness_analysis,Country,Continent,Habitat,Life_form,Latitude,Longitude,Plot_type,Plot_size_min,Plot_size_max,Year1_min,Year1_max,Year2_min,Year2_max,Duration,N_time_points,N_plots_Year1,N_plots_Year2,SR_Year1_CT,SR_Year1_STDEV,SR_Year2_CT,SR_Year2_STDEV,Delta_SR_CT,Delta_SR_STDEV,CT,log_SR_ratio,Diversity_Year1_CT,Diversity_Year2_CT,Evenness_Year1_CT,Evenness_Year2_CT,Datathief,Driver
+1,1,s1,1,0,0,"USA, Ohio",NorthAmerica,Savanna/Shrubland,most,41.558,-83.856,permanent,500,500,1988,1988,2002,2002,14,2,2,2,19.8014,1.4304,25.3664,3.5337,,,mean,0.247672821,,,,,yes,Unknown
+1,2,s2,1,0,0,"USA, Kansas",NorthAmerica,Grassland,most,38.807075,-99.310341,permanent,1,1,1938,1938,1972,1972,34,35,7,7,3.2812,,9.0505,,,,mean,1.014610796,,,,,yes,Post-disturbance
+1,3,s2,1,0,0,"USA, Kansas",NorthAmerica,Grassland,most,38.807075,-99.310341,permanent,1,1,1938,1938,1972,1972,34,35,5,5,2.6103,,8.0137,,,,mean,1.12168742,,,,,yes,Post-disturbance
+1,4,s2,1,0,0,"USA, Kansas",NorthAmerica,Grassland,most,38.807075,-99.310341,permanent,1,1,1938,1938,1972,1972,34,35,3,3,7.3536,,9.387,,,,mean,0.244135764,,,,,yes,Post-disturbance
+1,5,s3,1,1,0,Uruguay,SouthAmerica,Grassland,most,-32.08333333,-54.5,semi-permanent,144,144,1935,1935,1990,1990,55,2,5,5,38.6,5,57,6.2,,,mean,0.389798991,3.24,3.67,0.67,0.69,no,Herbivory_grazing
+1,6,s4,1,0,0,Spain,Europe,Wetland,most,37.68,-0.83,permanent,16,16,1991,1991,2004,2004,13,3,12,12,8.83,2.805922308,7.58,2.598076211,,,mean,-0.152641815,,,,,no,Hydrology
+1,7,s5,1,0,0,"USA, Oregon",NorthAmerica,Forest,most,44.21408,-122.257,permanent,1000,1000,1997,1998,2005,2005,7.5,4,4,4,11.5,1.8,11.8,1.6,,,mean,0.025752496,,,0.77,0.79,yes,Unknown
+1,8,s6,1,0,0,"USA, Florida",NorthAmerica,Wetland,most,25.3,-80.65,permanent,5,5,1995,1997,2003,2003,7,4,60,60,10,4,11.17,3.3,,,mean,0.11064652,,,,,no,Hydrology
+1,9,s7,1,0,0,Belgium,Europe,Forest,most,50.807236,4.702778,semi-permanent,125,225,1954,1955,2000,2000,45.5,2,20,20,24.1,5.736723804,26,4.557411546,,,mean,0.075884698,,,,,no,Canopy_closure
+1,10,s8,1,0,1,Belgium,Europe,Forest,understory,50.95497,3.608093,semi-permanent,100,200,1977,1983,2009,2009,29,2,39,39,18.2,4.995998399,15.3,6.244997998,,,mean,-0.173568766,,,0.78,0.77,yes,Canopy_closure
+1,11,s8,1,0,1,Belgium,Europe,Forest,understory,50.95497,3.608093,semi-permanent,100,200,1977,1983,2009,2009,29,2,39,39,18,8.118497398,14.4,6.869497798,,,mean,-0.223143551,,,0.78,0.71,yes,Canopy_closure
+1,12,s9,1,0,0,United Kingdom,Europe,Forest,understory,51.82666667,-2.66,permanent,32,32,1979,1979,2009,2009,30,2,35,35,21.3,,15.5,,,,mean,-0.317867049,,,,,no,Herbivory_grazing
+1,13,s10,1,0,0,"USA, New Mexico",NorthAmerica,Desert,most,32.5,-106.8,permanent,1,1,1915,1915,2001,2001,86,65,58,58,7.4,,3.8,,,,mean,-0.666478933,,,,,yes,Invasion
+1,14,s11,1,0,0,"USA, Kansas",NorthAmerica,Grassland,most,39.089301,-96.578465,permanent,50,50,1990,1990,1998,1998,8,9,8,8,35,,29.8454,2.526916793,,,mean,-0.159317337,,,,,yes,Unknown
+1,15,s12a,1,0,0,United Kingdom,Europe,Forest,understory,54.285872,-2.789855,permanent,4,4,1969,1969,1987,1987,18,2,4,4,10,,8,,,,mean,-0.223143551,,,,,no,Management
+1,16,s12a,1,0,0,United Kingdom,Europe,Forest,understory,54.285872,-2.789855,permanent,4,4,1969,1969,1987,1987,18,2,11,11,10.6,,10.3,,,,mean,-0.028710106,,,,,no,Management
+1,17,s12a,1,0,0,United Kingdom,Europe,Forest,understory,54.285872,-2.789855,permanent,4,4,1969,1969,1987,1987,18,2,6,6,6.8,,6.2,,,,mean,-0.09237332,,,,,no,Management
+1,18,s12a,1,0,0,United Kingdom,Europe,Forest,understory,54.285872,-2.789855,permanent,4,4,1969,1969,1987,1987,18,2,4,4,7.5,,6.8,,,,mean,-0.097980408,,,,,no,Management
+1,19,s12a,1,0,0,United Kingdom,Europe,Forest,understory,54.285872,-2.789855,permanent,4,4,1969,1969,1987,1987,18,2,5,5,21.2,,16,,,,mean,-0.281412459,,,,,no,Management
+1,20,s12a,1,0,0,United Kingdom,Europe,Forest,understory,54.285872,-2.789855,permanent,4,4,1969,1969,1987,1987,18,2,9,9,11,,11.7,,,,mean,0.061693569,,,,,no,Management
+1,21,s12a,1,0,0,United Kingdom,Europe,Forest,understory,54.285872,-2.789855,permanent,4,4,1969,1969,1987,1987,18,2,6,6,9.3,,11.7,,,,mean,0.229574442,,,,,no,Management
+1,22,s12b,1,0,0,United Kingdom,Europe,Grassland,understory,54.285872,-2.789855,permanent,4,4,1969,1969,1987,1987,18,2,5,5,17.4,,15.8,,,,mean,-0.096460266,,,,,no,Management
+1,23,s13,1,0,0,Germany,Europe,Wetland,most,53.748711,7.514191,permanent,4,4,2002,2002,2007,2007,5,5,16,16,8.3,,5.9,,,,mean,-0.341303164,,,,,no,Management
+1,24,s13,1,0,0,Germany,Europe,Wetland,most,53.748711,7.514191,permanent,4,4,2002,2002,2007,2007,5,5,19,19,10.1,,9.4,,,,mean,-0.071825735,,,,,no,Management
+1,25,s13,1,0,0,Germany,Europe,Wetland,most,53.748711,7.514191,permanent,4,4,2002,2002,2007,2007,5,5,8,8,8.6,,5.8,,,,mean,-0.393904286,,,,,no,Management
+1,26,s13,1,0,0,Germany,Europe,Wetland,most,53.748711,7.514191,permanent,4,4,2002,2002,2007,2007,5,4,6,6,12.6,,12.6,,,,mean,0,,,,,no,Management
+1,27,s13,1,0,0,Germany,Europe,Wetland,most,53.748711,7.514191,permanent,4,4,2002,2002,2007,2007,5,5,9,9,15.2,,10.9,,,,mean,-0.332532639,,,,,no,Management
+1,28,s13,1,0,0,Germany,Europe,Wetland,most,53.748711,7.514191,permanent,4,4,2002,2002,2007,2007,5,5,17,17,5.2,,6.4,,,,mean,0.207639365,,,,,no,Management
+1,29,s14a,1,0,0,"USA, Florida",NorthAmerica,Forest,woody,24.6,-81.3,semi-permanent,15.3,15.3,1988,1990,2001,2002,12.5,2,28,28,21.1765,16.60050203,23.1373,14.52570385,,,mean,0.088553958,,,,,yes,Herbivory_grazing
+1,30,s14a,1,0,0,"USA, Florida",NorthAmerica,Forest,woody,24.6,-81.3,semi-permanent,30.5,30.5,1988,1990,2001,2002,12.5,2,12,12,11.9593,7.29262672,17.4982,2.280071683,,,mean,0.3805888,,,,,yes,Herbivory_grazing
+1,31,s14b,1,0,0,"USA, Florida",NorthAmerica,Wetland,woody,24.6,-81.3,semi-permanent,30.5,30.5,1988,1990,2001,2002,12.5,2,24,24,4.99318,4.035093443,4.70532,2.594303576,,,mean,-0.059379198,,,,,yes,Herbivory_grazing
+1,32,s15,1,1,1,"USA, Ohio",NorthAmerica,Wetland,most,39.93333333,-83.71666667,semi-permanent,1,1,1986,1986,2000,2000,14,3,100,100,12.49,1.58,14.57,1.41,,,mean,0.154036296,1.7,1.82,0.68,0.69,no,Unknown
+1,33,s15,1,1,1,"USA, Ohio",NorthAmerica,Wetland,most,39.93333333,-83.71666667,semi-permanent,1,1,1986,1986,2000,2000,14,3,100,100,12.83,2.04,12.67,1.3,,,mean,-0.012549184,1.78,1.81,0.71,0.71,no,Unknown
+1,34,s16,1,0,0,France,Europe,Grassland,most,43.18333333,5.35,permanent,100,100,1997,1997,2008,2008,11,2,56,56,18.57,10.67,24.02,12.68,,,mean,0.257339441,,,,,no,Seabirds
+1,35,s17,1,0,0,United Kingdom,Europe,Grassland,most,50.930738,-0.860596,semi-permanent,49,49,1952,1953,2001,2003,49.5,2,92,92,25,,21.4,,,,mean,-0.155484903,,,,,no,Unknown
+1,36,s18,1,0,0,Sweden,Europe,Grassland,most,56.764768,14.520263,semi-permanent,20,20,1963,1966,1990,1990,25.5,2,8,8,42.4,7.7,44.3,8.8,,,mean,0.043836315,,,,,no,Pollution
+1,37,s19,1,0,0,"USA, Indiana",NorthAmerica,Savanna/Shrubland,most,42.66666667,-95.66666667,permanent,5,5,1986,1988,2007,2007,20,2,10,10,6.22,2.684773733,9.987,3.187575881,,,mean,0.473514341,,,,,yes,Ongoing-fire
+1,38,s19,1,0,0,"USA, Indiana",NorthAmerica,Savanna/Shrubland,most,42.66666667,-95.66666667,permanent,5,5,1986,1988,2007,2007,20,2,11,11,12.057,5.280066666,14.231,3.694720016,,,mean,0.16577728,,,,,yes,Ongoing-fire
+1,39,s19,1,0,0,"USA, Indiana",NorthAmerica,Savanna/Shrubland,most,42.66666667,-95.66666667,permanent,5,5,1986,1988,2007,2007,20,2,13,13,13.914,5.545337862,23.568,4.207678338,,,mean,0.526994332,,,,,yes,Ongoing-fire
+1,40,s19,1,0,0,"USA, Indiana",NorthAmerica,Savanna/Shrubland,most,42.66666667,-95.66666667,permanent,5,5,1986,1988,2007,2007,20,2,9,9,16.512,4.455,22.878,4.776,,,mean,0.326088361,,,,,yes,Ongoing-fire
+1,41,s19,1,0,0,"USA, Indiana",NorthAmerica,Savanna/Shrubland,most,42.66666667,-95.66666667,permanent,5,5,1986,1988,2007,2007,20,2,10,10,16.672,1.846770154,20.756,3.522777313,,,mean,0.219104696,,,,,yes,Ongoing-fire
+1,42,s20,1,0,0,"USA, Illinois",NorthAmerica,Grassland,most,41.758252,-87.858635,semi-permanent,0.25,0.25,1976,1976,2003,2003,27,3,25,25,9.35,1.7,11.55,3.4,,,mean,0.211309094,,,,,no,Ongoing-fire
+1,43,s20,1,0,0,"USA, Illinois",NorthAmerica,Grassland,most,41.758252,-87.858635,semi-permanent,0.25,0.25,1976,1976,2003,2003,27,3,25,25,12.75,2,12.95,2.85,,,mean,0.015564517,,,,,no,Ongoing-fire
+1,44,s21,1,0,0,"USA, Illinois",NorthAmerica,Forest,shrub,42.180292,-87.910974,semi-permanent,10,10,1976,1976,1997,1997,21,2,10,10,3.6604,0.4761,1.5424,0.2209,,,mean,-0.864232786,,,,,yes,Unknown
+1,45,s21,1,0,0,"USA, Illinois",NorthAmerica,Forest,shrub,42.180292,-87.910974,semi-permanent,10,10,1976,1976,1997,1997,21,2,10,10,1.4163,0.153,0.8961,0.085,,,mean,-0.457751102,,,,,yes,Unknown
+1,46,s22,1,1,0,"USA, Illinois",NorthAmerica,Wetland,most,42,-88.25,permanent,0.25,0.25,1986,1987,1992,1992,5.5,2,16,15,6.19,,5.2,,,,mean,-0.174276461,1.278,1.22,,,no,Ongoing-fire
+1,47,s22,1,1,0,"USA, Illinois",NorthAmerica,Wetland,most,42,-88.25,permanent,0.25,0.25,1986,1987,1992,1992,5.5,2,30,28,8.37,,6.79,,,,mean,-0.209202943,1.526,1.466,,,no,Ongoing-fire
+1,48,s22,1,1,0,"USA, Illinois",NorthAmerica,Wetland,most,42,-88.25,permanent,0.25,0.25,1986,1987,1992,1992,5.5,2,20,23,8.75,,7.48,,,,mean,-0.156820908,1.512,1.374,,,no,Ongoing-fire
+1,49,s22,1,1,0,"USA, Illinois",NorthAmerica,Wetland,most,42,-88.25,permanent,0.25,0.25,1986,1987,1992,1992,5.5,2,30,25,5.2,,5.24,,,,mean,0.007662873,1.441,1.511,,,no,Ongoing-fire
+1,50,s22,1,1,0,"USA, Illinois",NorthAmerica,Wetland,most,42,-88.25,permanent,0.25,0.25,1986,1987,1992,1992,5.5,2,26,22,6.81,,5.18,,,,mean,-0.273587064,1.619,1.617,,,no,Ongoing-fire
+1,51,s22,1,1,0,"USA, Illinois",NorthAmerica,Wetland,most,42,-88.25,permanent,0.25,0.25,1986,1987,1992,1992,5.5,2,19,21,5.84,,4.14,,,,mean,-0.344035009,1.342,1.078,,,no,Ongoing-fire
+1,52,s23,1,0,0,"USA, Illinois",NorthAmerica,Grassland,most,40.58333333,-89.58333333,semi-permanent,0.25,0.25,1976,1976,1996,1996,20,2,70,113,5.3,0.223606798,6,0.206155281,,,mean,0.124052649,,,,,yes,Ongoing-fire
+1,53,s23,1,0,0,"USA, Illinois",NorthAmerica,Grassland,most,40.58333333,-89.58333333,semi-permanent,0.25,0.25,1976,1976,1996,1996,20,2,90,173,4.95,0.200249844,5.4,0.206155281,,,mean,0.087011377,,,,,yes,Invasion
+1,54,s24,0,1,0,"USA, Colorado",NorthAmerica,Tundra,most,40.05,-105.6,permanent,1.5,1.5,1997,1997,2004,2004,7,7,5,5,,,,,,,,,1.48332,1.83394,,,yes,Pollution
+1,55,s25,1,0,0,"USA, Mississippi",NorthAmerica,Forest,understory,31.54109,-88.8277,permanent,0.25,0.25,2000,2000,2005,2005,5,3,20,20,6.2,1.788854382,2.9,0.447213595,,,mean,-0.759838555,,,,,yes,Invasion
+1,56,s25,1,0,0,"USA, Mississippi",NorthAmerica,Forest,understory,31.54109,-88.8277,permanent,0.25,0.25,2000,2000,2005,2005,5,3,20,20,4.3,0.894427191,1.8,0.447213595,,,mean,-0.870828358,,,,,yes,Invasion
+1,57,s26,0,0,0,United Kingdom,Europe,Tundra,most,57.35,-4.52,semi-permanent,2,4,1963,1987,2004,2006,30,2,205,205,,,,,3.01,,mean,,,,,,no,Climate
+1,58,s26,0,1,0,United Kingdom,Europe,Tundra,most,57.35,-4.52,semi-permanent,2,4,1963,1987,2004,2006,30,2,205,205,,,,,,,,,1.873,1.671,,,no,Climate
+1,59,s27,1,0,0,Sweden,Europe,Forest,understory,56,13.71,permanent,500,500,1983,1983,1993,1993,10,2,54,54,18,,22.1,,,,mean,0.205205851,,,,,no,Ongoing-disturbance
+1,60,s27,1,0,0,Sweden,Europe,Forest,understory,56,13.71,permanent,500,500,1983,1983,1993,1993,10,2,30,30,19.9,,21.4,,,,mean,0.07267119,,,,,no,Management
+1,61,s27,1,0,0,Sweden,Europe,Forest,understory,56.82,15.18,permanent,500,500,1983,1983,1993,1993,10,2,116,116,11,,25.6,,,,mean,0.844697079,,,,,no,Management
+1,62,s28,1,0,0,Sweden,Europe,Forest,understory,56,13.71,permanent,50,50,1979,1981,1989,1990,9.5,2,26,26,14,,16.3,,,,mean,0.152107778,,,,,no,Ongoing-disturbance
+1,63,s28,1,0,0,Sweden,Europe,Forest,understory,56,13.71,permanent,50,50,1979,1981,1989,1990,9.5,2,23,23,16.2,,19.2,,,,mean,0.169899037,,,,,no,Ongoing-disturbance
+1,64,s28,1,0,0,Sweden,Europe,Forest,understory,56,13.71,permanent,50,50,1979,1981,1989,1990,9.5,2,21,21,8.3,,8.3,,,,mean,0,,,,,no,Management
+1,65,s29,1,0,0,Sweden,Europe,Forest,understory,56,13.71,permanent,500,500,1983,1983,1993,1993,10,2,24,24,26.4,,26.1,,,,mean,-0.011428696,,,,,no,Management
+1,66,s30,1,0,0,"USA, Tennessee",NorthAmerica,Forest,woody,35.7,-83.25,permanent,4000,4000,1962,1962,1992,1992,30,2,1,1,13,,14,,,,mean,0.074107972,,,,,no,Unknown
+1,67,s31,1,0,0,"USA, Washington",NorthAmerica,Successional,most,46.22,-122.2,permanent,250,250,1980,1980,1999,1999,19,20,13,13,13.12,3.569495763,18.14,1.009554357,,,mean,0.323981661,,,,,yes,Post-disturbance
+1,68,s31,1,0,0,"USA, Washington",NorthAmerica,Successional,most,46.22,-122.2,permanent,250,250,1980,1980,1992,1992,12,13,4,4,4.24,1.74,17.12,4,,,mean,1.395684101,,,,,yes,Post-disturbance
+1,69,s31,1,0,0,"USA, Washington",NorthAmerica,Successional,most,46.22,-122.2,permanent,250,250,1980,1980,1999,1999,19,20,5,5,4.56,2.97397041,20.18,0.626099034,,,mean,1.487369391,,,,,yes,Post-disturbance
+1,70,s31,1,0,0,"USA, Washington",NorthAmerica,Successional,most,46.22,-122.2,permanent,250,250,1982,1982,2000,2000,18,19,7,7,2.37,1.402248195,19.27,1.825568405,,,mean,2.095659527,,,,,yes,Post-disturbance
+1,71,s32,1,0,0,Australia,Australia,Grassland,most,-23.706781,133.685646,permanent,8,8,1976,1976,2003,2003,27,25,24,24,3.42,,4.37,,,,mean,0.245122458,,,,,yes,Cessation_grazing
+1,72,s33,1,1,1,"USA, Tennessee",NorthAmerica,Forest,tree,35.66,-83.44,semi-permanent,4000,4000,1968,1968,1983,1983,15,2,1,1,23,,20,,,,mean,-0.139761942,2.12,1.82,0.68,0.61,no,Post-disturbance
+1,73,s34,1,0,0,"USA, Oklahoma",NorthAmerica,Grassland,most,35.2,-97.51,permanent,0.1,0.1,1949,1949,1981,1982,32.5,6,25,25,6,,3.7,,,,mean,-0.48342665,,,,,no,Post-fire
+1,74,s35,1,0,0,"USA, Oregon",NorthAmerica,Forest,most,44.174325,-122.255287,permanent,1,1,1992,1992,2007,2007,15,16,24,24,5.208,,13.5,,,,mean,0.952493781,,,,,yes,Post-fire
+1,75,s36,1,0,0,United Kingdom,Europe,Forest,understory,51.77,-1.34,permanent,100,100,1973,1976,1999,2002,26,3,59,59,16.3,,16.7,,,,mean,0.024243612,,,,,yes,Unknown
+1,76,s36,1,0,0,United Kingdom,Europe,Forest,understory,51.77,-1.34,permanent,100,100,1973,1976,1999,2002,26,3,50,50,16.5,,10.3,,,,mean,-0.471216486,,,,,yes,Unknown
+1,77,s36,1,0,0,United Kingdom,Europe,Forest,understory,51.77,-1.34,permanent,100,100,1973,1976,1999,2002,26,3,19,19,14.4,,14.9,,,,mean,0.034133006,,,,,yes,Unknown
+1,78,s36,1,0,0,United Kingdom,Europe,Forest,understory,51.77,-1.34,permanent,100,100,1973,1976,1999,2002,26,3,35,35,16.5,,12.5,,,,mean,-0.277631737,,,,,yes,Unknown
+1,79,s37,0,0,0,Puerto Rico,Caribbean,Forest,tree,18.322263,-65.818119,permanent,7200,7200,1943,1943,1976,1976,33,2,1,1,,,,,,,,,4.48,4,0.77,0.71,yes,Post-disturbance
+1,80,s38,1,0,0,"USA, Oregon",NorthAmerica,Forest,understory,42.03093,-123.319,semi-permanent,25,25,1949,1951,2007,2007,57,2,55,55,14.5946,5.342311553,3.6515,2.588858676,,,mean,-1.385513555,,,,,yes,Climate
+1,81,s38,1,0,0,"USA, Oregon",NorthAmerica,Forest,understory,42.03093,-123.319,semi-permanent,25,25,1949,1951,2007,2007,57,2,53,53,11.7269,4.56864039,3.4689,2.509780741,,,mean,-1.218047807,,,,,yes,Climate
+1,82,s39,1,1,0,"Canada, Yukon",NorthAmerica,Tundra,most,61.38,-138.2,semi-permanent,4,4,1968,1968,2010,2010,42,2,1,1,29,,36,,,,mean,0.216223108,0.831,0.892,,,yes,Climate
+1,83,s39,1,1,0,"Canada, Yukon",NorthAmerica,Tundra,most,61.38,-138.2,semi-permanent,2.5,2.5,1968,1968,2010,2010,42,2,1,1,15,,21,,,,mean,0.336472237,0.822,0.859,,,yes,Climate
+1,84,s39,1,1,0,"Canada, Yukon",NorthAmerica,Tundra,most,61.38,-138.2,semi-permanent,4.3,4.3,1968,1968,2010,2010,42,2,1,1,27,,40,,,,mean,0.393042588,0.738,0.86,,,yes,Climate
+1,85,s39,1,1,0,"Canada, Yukon",NorthAmerica,Tundra,most,61.38,-138.2,semi-permanent,2,2,1968,1968,2010,2010,42,2,1,1,16,,35,,,,mean,0.782759339,0.761,0.919,,,yes,Climate
+1,86,s40,1,0,0,"Denmark, Greenland",Europe,Tundra,most,65.61666667,-37.66666667,semi-permanent,1,1,1968,1969,2007,2007,38.5,2,9,9,7,,10.3,,,,mean,0.386233746,,,,,no,Climate
+1,87,s40,1,0,0,"Denmark, Greenland",Europe,Tundra,most,65.61666667,-37.66666667,semi-permanent,2,9,1968,1969,2007,2007,38.5,2,10,10,22.6,,25.7,,,,mean,0.128541086,,,,,no,Climate
+1,88,s40,1,0,0,"Denmark, Greenland",Europe,Tundra,most,65.61666667,-37.66666667,semi-permanent,1,6,1968,1969,2007,2007,38.5,2,10,10,34.3,,39.6,,,,mean,0.143683764,,,,,no,Climate
+1,89,s40,1,0,0,"Denmark, Greenland",Europe,Tundra,most,65.61666667,-37.66666667,permanent,1,1,1981,1981,2007,2007,26,2,5,5,16.4,,13.8,,,,mean,-0.172612743,,,,,no,Climate
+1,90,s40,1,0,0,"Denmark, Greenland",Europe,Tundra,most,65.61666667,-37.66666667,permanent,1,1,1981,1981,2007,2007,26,2,6,6,27.5,,25,,,,mean,-0.09531018,,,,,no,Climate
+1,91,s40,1,0,0,"Denmark, Greenland",Europe,Tundra,most,65.61666667,-37.66666667,semi-permanent,4,9,1968,1969,2007,2007,38.5,2,11,11,14.6,,14,,,,mean,-0.041964199,,,,,no,Climate
+1,92,s40,1,0,0,"Denmark, Greenland",Europe,Tundra,most,65.61666667,-37.66666667,semi-permanent,1,2,1968,1969,2007,2007,38.5,2,9,9,17.3,,29.2,,,,mean,0.523462208,,,,,no,Climate
+1,93,s40,1,0,0,"Denmark, Greenland",Europe,Tundra,most,65.61666667,-37.66666667,semi-permanent,1,9,1968,1969,2007,2007,38.5,2,13,13,24.5,,24.7,,,,mean,0.008130126,,,,,no,Climate
+1,94,s41,1,1,0,"USA, New Jersey",NorthAmerica,Forest,understory,40.5,-74.57,semi-permanent,1,1,1950,1950,1979,1979,29,3,100,100,33,,26,,,,mean,-0.238411023,0.76,0.81,,,no,Unknown
+1,95,s42,0,1,1,Argentina,SouthAmerica,Grassland,most,-38.08333333,-62,semi-permanent,20,20,1993,1993,2003,2003,10,2,3,3,,,,,,,,,2.7,2.9,0.67,0.6,no,Herbivory_grazing
+1,96,s43,1,0,0,France,Europe,Forest,most,43.66666667,3.833333333,permanent,320,320,1977,1978,1994,1996,17.5,2,34,34,51.2,13.9,45.8,12.9,,,mean,-0.111455441,,,,,no,Management
+1,97,s43,1,0,0,France,Europe,Forest,most,43.66666667,3.833333333,permanent,320,320,1977,1978,1994,1996,17.5,2,10,10,56.8,13.4,56.7,7.6,,,mean,-0.001762115,,,,,no,Management
+1,98,s44,1,1,0,"USA, Washington",NorthAmerica,Successional,most,46.22,-122.2,permanent,250,250,1990,1990,2005,2005,15,16,20,20,6.25,,16.9,,,,mean,0.994732158,2.26,1.71,,,no,Post-disturbance
+1,99,s45,1,0,0,"USA, Wyoming",NorthAmerica,Forest,herb,43.807774,-110.640793,permanent,6,6,1975,1975,1991,1991,16,5,1,1,11,,20,,,,mean,0.597837001,,,,,no,Post-fire
+1,100,s45,1,0,0,"USA, Wyoming",NorthAmerica,Forest,herb,43.807774,-110.640793,permanent,6,6,1975,1975,1991,1991,16,5,1,1,21,,44,,,,mean,0.739667196,,,,,no,Post-fire
+1,101,s45,1,0,0,"USA, Wyoming",NorthAmerica,Forest,herb,43.807774,-110.640793,permanent,6,6,1975,1975,1991,1991,16,5,1,1,17,,15,,,,mean,-0.125163143,,,,,no,Unknown
+1,102,s46,0,1,1,"USA, North Carolina",NorthAmerica,Forest,woody,35.05,-83.41666667,permanent,200,200,1982,1982,1995,1995,13,2,26,26,,,,,,,,,2.02304,2.55874,0.642056,0.354181,yes,Post-disturbance
+1,103,s47,0,0,0,Italy,Europe,Tundra,most,46.31666667,11.55,permanent,1,1,2001,2001,2008,2008,7,3,16,16,,,,,0.4,,mean,,,,,,no,Climate
+1,104,s47,0,0,0,Italy,Europe,Tundra,most,46.31666667,11.55,permanent,1,1,2001,2001,2008,2008,7,3,16,16,,,,,-1.2,,mean,,,,,,no,Climate
+1,105,s47,0,0,0,Italy,Europe,Tundra,most,46.31666667,11.55,permanent,1,1,2001,2001,2008,2008,7,3,16,16,,,,,0.8,,mean,,,,,,no,Climate
+1,106,s47,0,0,0,Italy,Europe,Tundra,most,46.51666667,11.61666667,permanent,1,1,2001,2001,2008,2008,7,3,16,16,,,,,1.3,,mean,,,,,,no,Climate
+1,107,s48,1,0,0,"USA, New Jersey",NorthAmerica,Forest,understory,41.51666667,-74.81666667,permanent,8,8,1994,1994,2003,2003,9,4,54,54,5.04,3.76,7.25,4.25,,,mean,0.363595387,,,,,no,Post-disturbance
+1,108,s48,1,0,0,"USA, New Jersey",NorthAmerica,Forest,understory,41.51666667,-74.81666667,permanent,8,8,1994,1994,2003,2003,9,4,37,37,4.18,2.88,5.38,4.04,,,mean,0.252377128,,,,,no,Post-disturbance
+1,109,s49,1,0,0,Finland,Europe,Savanna/Shrubland,most,69.05,20.83333333,permanent,0.25,0.25,1990,1990,1999,2001,10,2,6,6,23.9444,5.244357539,27.718,7.418769584,,,mean,0.146347546,,,,,yes,Cessation_grazing
+1,110,s49,1,0,0,Finland,Europe,Savanna/Shrubland,most,69.05,20.83333333,permanent,0.25,0.25,1990,1990,1999,2001,10,2,24,24,26.2246,7.162797906,34.698,9.465318264,,,mean,0.279984147,,,,,yes,Cessation_grazing
+1,111,s50,1,0,0,Netherlands,Europe,Wetland,most,53.26666667,7.166666667,permanent,100,100,1983,1983,1997,1997,14,3,64,64,8,,10,,,,mean,0.223143551,,,,,no,Management
+1,112,s51,1,0,0,Sweden,Europe,Forest,understory,55.964576,13.715515,permanent,1,100,1949,1970,1984,1985,25,2,79,79,9.7,,11.1,,,,mean,0.134819223,,,,,no,Pollution
+1,113,s52,1,0,0,Germany,Europe,Grassland,most,49.86666667,8.65,permanent,4,4,2000,2001,2008,2009,8,9,5,5,32.2,,25.5,,,,mean,-0.233288,,,,,yes,Unknown
+1,114,s53,1,1,1,Brazil,SouthAmerica,Savanna/Shrubland,woody,-15.93333333,-47.91666667,permanent,1000,1000,1985,1985,1994,1994,9,4,19,19,30,,32,,,,mean,0.064538521,3.46,3.36,0.84,0.83,yes,Unknown
+1,115,s54,1,0,0,Switzerland,Europe,Grassland,most,47.342545,7.695007,semi-permanent,100,100,1946,1953,1983,1987,35.5,2,26,26,45.4,9.22922532,49.8,9.22922532,,,mean,0.092502879,,,,,no,Fragmentation
+1,116,s55,1,0,0,French Guiana,SouthAmerica,Forest,most,4.083333333,-52.68333333,permanent,2,2,1995,1995,2005,2005,10,2,89,89,15.3515,,13.5638,,,,mean,-0.12380871,,,,,yes,Climate
+1,117,s55,1,0,0,French Guiana,SouthAmerica,Forest,most,4.083333333,-52.68333333,permanent,2,2,1995,1995,2005,2005,10,2,64,64,16.9567,,13.9706,,,,mean,-0.193707914,,,,,yes,Climate
+1,118,s55,1,0,0,French Guiana,SouthAmerica,Forest,most,4.083333333,-52.68333333,permanent,2,2,1995,1995,2005,2005,10,2,52,52,20.7335,,17.523,,,,mean,-0.168236446,,,,,yes,Climate
+1,119,s56,1,0,0,United Kingdom,Europe,Forest,woody,52.4,-0.233333333,semi-permanent,150,150,1971,1971,1998,1998,27,2,31,31,7.14,,6.72,,,,mean,-0.060624622,,,,,no,Management
+1,120,s57,1,0,0,"USA, New Mexico",NorthAmerica,Grassland,most,32.810362,-106.847992,permanent,1,1,1915,1915,1979,1979,64,61,30,30,5.82903,,4.95243,,,,mean,-0.162972241,,,,,yes,Unknown
+1,121,s57,1,0,0,"USA, New Mexico",NorthAmerica,Grassland,most,32.810362,-106.847992,permanent,1,1,1926,1926,1979,1979,53,39,6,6,10.2484,,1.73002,,,,mean,-1.778988627,,,,,yes,Unknown
+1,122,s57,1,0,0,"USA, New Mexico",NorthAmerica,Grassland,most,32.810362,-106.847992,permanent,1,1,1915,1915,1979,1979,64,60,4,12,3.21918,,2.60555,,,,mean,-0.211482883,,,,,yes,Unknown
+1,123,s57,1,0,0,"USA, New Mexico",NorthAmerica,Grassland,most,32.810362,-106.847992,permanent,1,1,1915,1915,1979,1979,64,61,1,7,5.0029,,2.72864,,,,mean,-0.606214428,,,,,yes,Unknown
+1,124,s58,1,1,1,Sweden,Europe,Forest,most,57.152,14.69,semi-permanent,100,100,1996,1996,2006,2006,10,2,17,17,31.846,5.967842662,29.981,7.960902025,,,mean,-0.060347938,2.531,2.496,0.917,0.9305,yes,Unknown
+1,125,s58,1,1,1,Sweden,Europe,Forest,most,58.065,12.311,semi-permanent,100,100,1991,1991,2005,2005,14,2,17,17,27.107,7.545494945,26.026,7.540675519,,,mean,-0.040695959,2.0275,2.25,0.6515,0.6545,yes,Unknown
+1,126,s58,1,1,1,Sweden,Europe,Forest,most,59.736,14.9,semi-permanent,100,100,1998,1998,2003,2003,5,2,16,16,22.329,6.18919939,32.394,7.433503913,,,mean,0.372086938,1.7815,2.344,0.693,0.6155,yes,Unknown
+1,127,s58,1,1,1,Sweden,Europe,Forest,most,63.823,17.391,semi-permanent,100,100,1999,1999,2004,2004,5,2,32,32,27.261,6.034890916,32.956,6.59041812,,,mean,0.189716229,1.5355,2.356,0.4285,0.527,yes,Unknown
+1,128,s59,1,0,0,Sweden,Europe,Wetland,most,58.08333333,12.01666667,semi-permanent,0.25,0.25,1999,1999,2004,2004,5,2,750,750,10.5,,10.8,,,,mean,0.028170877,,,,,no,Climate
+1,129,s60,1,0,0,Switzerland,Europe,Wetland,most,46.91666667,6.95,permanent,1,1,1982,1982,1996,1996,14,4,3,3,12.3,,9.4,,,,mean,-0.268889573,,,,,no,Unknown
+1,130,s60,1,0,0,Switzerland,Europe,Wetland,most,46.91666667,6.95,permanent,25,25,1982,1982,1996,1996,14,5,3,3,14,,10,,,,mean,-0.336472237,,,,,no,Unknown
+1,131,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,9724.323611,9724.323611,1947,1949,2005,2007,58,2,1,1,66,,83,,,,mean,0.229185866,,,,,no,Cessation_grazing
+1,132,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,9120.87049,9120.87049,1947,1949,2005,2007,58,2,1,1,63,,99,,,,mean,0.451985124,,,,,no,Cessation_grazing
+1,133,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,8114.69,8114.69,1947,1949,2005,2007,58,2,1,1,60,,73,,,,mean,0.196114879,,,,,no,Cessation_grazing
+1,134,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,7577.776133,7577.776133,1947,1949,2005,2007,58,2,1,1,44,,63,,,,mean,0.358945092,,,,,no,Cessation_grazing
+1,135,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,7433.786233,7433.786233,1947,1949,2005,2007,58,2,1,1,54,,77,,,,mean,0.354821375,,,,,no,Cessation_grazing
+1,136,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,7367.738028,7367.738028,1947,1949,2005,2007,58,2,1,1,39,,55,,,,mean,0.343771539,,,,,no,Cessation_grazing
+1,137,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,7108.190414,7108.190414,1947,1949,2005,2007,58,2,1,1,47,,72,,,,mean,0.426518517,,,,,no,Cessation_grazing
+1,138,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,6398.382912,6398.382912,1947,1949,2005,2007,58,2,1,1,64,,67,,,,mean,0.045809536,,,,,no,Cessation_grazing
+1,139,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,6383.794821,6383.794821,1947,1949,2005,2007,58,2,1,1,50,,81,,,,mean,0.482426149,,,,,no,Cessation_grazing
+1,140,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,6340.553897,6340.553897,1947,1949,2005,2007,58,2,1,1,48,,58,,,,mean,0.189242,,,,,no,Cessation_grazing
+1,141,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,6134.170938,6134.170938,1947,1949,2005,2007,58,2,1,1,29,,49,,,,mean,0.524524468,,,,,no,Cessation_grazing
+1,142,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,5663.33168,5663.33168,1947,1949,2005,2007,58,2,1,1,37,,49,,,,mean,0.280902385,,,,,no,Cessation_grazing
+1,143,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,5552.201106,5552.201106,1947,1949,2005,2007,58,2,1,1,51,,73,,,,mean,0.358633808,,,,,no,Cessation_grazing
+1,144,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,5467.533939,5467.533939,1947,1949,2005,2007,58,2,1,1,48,,83,,,,mean,0.547639597,,,,,no,Cessation_grazing
+1,145,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,5210.09291,5210.09291,1947,1949,2005,2007,58,2,1,1,50,,70,,,,mean,0.336472237,,,,,no,Cessation_grazing
+1,146,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,5086.97026,5086.97026,1947,1949,2005,2007,58,2,1,1,62,,75,,,,mean,0.190353728,,,,,no,Cessation_grazing
+1,147,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,4872.004096,4872.004096,1947,1949,2005,2007,58,2,1,1,28,,59,,,,mean,0.745332934,,,,,no,Cessation_grazing
+1,148,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,4469.54487,4469.54487,1947,1949,2005,2007,58,2,1,1,51,,84,,,,mean,0.498991166,,,,,no,Cessation_grazing
+1,149,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,4438.07,4438.07,1947,1949,2005,2007,58,2,1,1,56,,57,,,,mean,0.017699577,,,,,no,Cessation_grazing
+1,150,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,3778.592522,3778.592522,1947,1949,2005,2007,58,2,1,1,46,,70,,,,mean,0.419853846,,,,,no,Cessation_grazing
+1,151,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,3516.8,3516.8,1947,1949,2005,2007,58,2,1,1,37,,68,,,,mean,0.608589793,,,,,no,Cessation_grazing
+1,152,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,3397.322632,3397.322632,1947,1949,2005,2007,58,2,1,1,45,,71,,,,mean,0.456017387,,,,,no,Cessation_grazing
+1,153,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,3203.166026,3203.166026,1947,1949,2005,2007,58,2,1,1,35,,45,,,,mean,0.251314428,,,,,no,Cessation_grazing
+1,154,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,2929.225412,2929.225412,1947,1949,2005,2007,58,2,1,1,30,,58,,,,mean,0.659245629,,,,,no,Cessation_grazing
+1,155,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,2784.335425,2784.335425,1947,1949,2005,2007,58,2,1,1,31,,38,,,,mean,0.203598955,,,,,no,Cessation_grazing
+1,156,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,2654.448921,2654.448921,1947,1949,2005,2007,58,2,1,1,23,,50,,,,mean,0.776528789,,,,,no,Cessation_grazing
+1,157,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,2599.28,2599.28,1947,1949,2005,2007,58,2,1,1,32,,49,,,,mean,0.426084395,,,,,no,Cessation_grazing
+1,158,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,2520.457198,2520.457198,1947,1949,2005,2007,58,2,1,1,28,,53,,,,mean,0.638087403,,,,,no,Cessation_grazing
+1,159,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,2281.865802,2281.865802,1947,1949,2005,2007,58,2,1,1,57,,40,,,,mean,-0.354171814,,,,,no,Cessation_grazing
+1,160,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,1434.135768,1434.135768,1947,1949,2005,2007,58,2,1,1,46,,50,,,,mean,0.083381609,,,,,no,Cessation_grazing
+1,161,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,1337.53,1337.53,1947,1949,2005,2007,58,2,1,1,27,,49,,,,mean,0.595983432,,,,,no,Cessation_grazing
+1,162,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,919.0837356,919.0837356,1947,1949,2005,2007,58,2,1,1,14,,25,,,,mean,0.579818495,,,,,no,Cessation_grazing
+1,163,s61,1,0,0,Finland,Europe,Forest,most,60,21.5,permanent,488.9589858,488.9589858,1947,1949,2005,2007,58,2,1,1,6,,10,,,,mean,0.510825624,,,,,no,Cessation_grazing
+1,164,s62,1,0,0,"USA, Tennessee",NorthAmerica,Forest,tree,35.56666667,-83.88333333,permanent,800,800,1977,1985,1995,1995,14,2,24,24,2.75,1.26,6.25,3.69,,,mean,0.820980552,,,,,no,Post-fire
+1,165,s62,1,0,0,"USA, Tennessee",NorthAmerica,Forest,tree,35.56666667,-83.88333333,permanent,800,800,1977,1985,1995,1995,14,2,24,24,6.33,1.53,6.33,2.08,,,mean,0,,,,,no,Post-fire
+1,166,s62,1,0,0,"USA, Tennessee",NorthAmerica,Forest,tree,35.56666667,-83.88333333,permanent,800,800,1977,1985,1995,1995,14,2,24,24,9,2,8.71,2.06,,,mean,-0.032752786,,,,,no,Post-fire
+1,167,s63,1,1,1,Japan,Asia,Grassland,most,40.51666667,141.5666667,permanent,1,6,2003,2003,2011,2011,8,2,31,31,6.7,3.6,5.2,3,,,mean,-0.253448901,1.54,0.83,0.88,0.54,no,Ongoing-disturbance
+1,168,s63,1,1,1,Japan,Asia,Grassland,most,40.2,141.7833333,permanent,1,6,2003,2003,2011,2011,8,2,25,26,4.9,3,4.7,1.9,,,mean,-0.041672696,1.24,0.76,0.91,0.53,no,Ongoing-disturbance
+1,169,s63,1,1,1,Japan,Asia,Grassland,most,40.08333333,141.8166667,permanent,1,6,2003,2003,2011,2011,8,2,13,16,4.2,3.9,4.4,2.3,,,mean,0.046520016,0.7,0.75,0.69,0.59,no,Ongoing-disturbance
+1,170,s63,1,1,1,Japan,Asia,Grassland,most,39.93333333,141.9333333,permanent,1,6,2003,2003,2011,2011,8,2,27,10,5.4,2.7,7.1,2.8,,,mean,0.27369583,1.03,1.22,0.67,0.68,no,Ongoing-disturbance
+1,171,s64,1,0,0,"USA, Rhode Island",NorthAmerica,Wetland,most,41.53716667,-71.21666667,semi-permanent,500,500,1998,1998,2009,2009,11,3,18,18,36.22,,40.62,,,,mean,0.114649104,,,,,no,Invasion
+1,172,s65,1,0,0,Czech Republic,Europe,Forest,understory,50.33333333,17,semi-permanent,315,315,1941,1944,1994,1999,54,2,22,57,35,,19,,,,mean,-0.610909082,,,,,no,Unknown
+1,173,s66,1,0,0,"USA, Wisconsin",NorthAmerica,Grassland,most,43.405047,-89.256592,permanent,0.25,0.25,1980,1980,1989,1989,9,5,20,20,11.5,,11.7,,,,mean,0.017241806,18,18,,,yes,Ongoing-disturbance
+1,174,s67,1,0,0,"Canada, Quebec",NorthAmerica,Forest,most,45.56,-73.18,permanent,1,1,1969,1969,1976,1976,7,4,137,137,10.9,3.71,9.9,3.62,,,mean,-0.096228032,,,,,no,Unknown
+1,175,s67,1,0,0,"Canada, Quebec",NorthAmerica,Forest,most,45.56,-73.18,permanent,1,1,1969,1969,1976,1976,7,4,90,90,8,3.46,7.2,3.39,,,mean,-0.105360516,,,,,no,Unknown
+1,176,s68,1,1,0,"USA, Alaska",NorthAmerica,Tundra,most,71.3,-156.6666667,permanent,0.49,0.49,1995,1995,2000,2000,5,2,24,24,19.3,1.959591794,19.8,,,,mean,0.025576842,2.5,2.4,,,no,Unknown
+1,177,s69,1,1,0,"USA, Michigan",NorthAmerica,Grassland,most,42.4,-85.36666667,permanent,1,1,1989,1989,1995,1995,6,7,6,6,5,1.861612205,13,4.874484588,,,mean,0.955511445,0.63,1.46,,,yes,Post-disturbance
+1,178,s70,1,0,0,"Canada, Nunavut",NorthAmerica,Tundra,most,78.88333333,-75.91666667,permanent,1,1,1996,1996,2007,2007,11,3,18,18,18.6,1.731690076,15.7,2.813996374,,,mean,-0.169500868,,,,,no,Unknown
+1,179,s71,1,0,0,Sweden,Europe,Many,most,59.41666667,17.75,permanent,3850,3850,1731,1731,1992,1992,261,4,1,1,86,,127,,,,mean,0.38983979,,,,,no,Management
+1,180,s72,1,0,0,Chile,SouthAmerica,Savanna/Shrubland,herb,-30.681326,-71.66666667,semi-permanent,5625,5625,1989,1989,2007,2007,18,19,4,4,11.297,,10.372,,,,mean,-0.085427336,,,,,yes,Climate
+1,181,s73,1,0,0,Sweden,Europe,Wetland,most,57.16666667,14.5,semi-permanent,0.25,0.25,1954,1954,1998,1998,44,2,833,278,8.2,,9.1,,,,mean,0.104140259,,,,,no,Unknown
+1,182,s74,1,0,0,Germany,Europe,Wetland,most,54.61666667,8.85,permanent,4,4,1992,1992,2004,2004,12,13,11,11,5,,8.3,,,,mean,0.506817602,,,0.395,0.39,yes,Cessation_grazing
+1,183,s74,1,0,0,Germany,Europe,Wetland,most,54.61666667,8.85,permanent,4,4,1992,1992,2004,2004,12,13,8,8,8.1,,8.6,,,,mean,0.059898142,,,0.35,0.21,yes,Cessation_grazing
+1,184,s75a,1,1,0,"USA, Colorado",NorthAmerica,Forest,understory,40.03,-105.44,permanent,0.85,0.85,1981,1981,1996,1996,15,2,50,50,36,,38,,,,mean,0.054067221,3.05,3.15,,,no,Post-fire
+1,185,s75a,1,1,0,"USA, Colorado",NorthAmerica,Forest,understory,40.03,-105.44,permanent,0.85,0.85,1981,1981,1996,1996,15,2,50,50,40,,41,,,,mean,0.024692613,3.24,3.29,,,no,Post-fire
+1,186,s75a,1,1,0,"USA, Colorado",NorthAmerica,Forest,understory,40.03,-105.44,permanent,0.85,0.85,1981,1981,1996,1996,15,2,50,50,45,,29,,,,mean,-0.43936666,3.25,2.92,,,no,Post-disturbance
+1,187,s75b,1,1,0,"USA, Colorado",NorthAmerica,Grassland,most,40.03,-105.44,permanent,0.85,0.85,1981,1981,1996,1996,15,2,50,50,41,,35,,,,mean,-0.158224005,3.29,3.18,,,no,Unknown
+1,188,s76,1,0,0,Czech Republic,Europe,Grassland,most,49.98333333,12.75,permanent,8,8,1990,1990,2006,2006,16,7,4,4,17.6808,2.133,27.4409,0.64,,,mean,0.439555296,,,,,yes,Unknown
+1,189,s77,1,0,0,"USA, Wisconsin",NorthAmerica,Grassland,most,43.275206,-89.621201,semi-permanent,20,20,1950,1950,2005,2005,55,2,10,10,65.2,,69.8,,,,mean,0.068174541,,,,,no,Unknown
+1,190,s78a,1,0,0,Netherlands,Europe,Grassland,most,52.05,4.2,permanent,30,30,1952,1952,2004,2004,52,22,15,15,32.5,,27.6,,,,mean,-0.163424317,,,,,yes,Unknown
+1,191,s78a,1,0,0,Netherlands,Europe,Grassland,most,52.05,4.2,permanent,30,30,1952,1952,2004,2004,52,22,9,9,33,,26,,,,mean,-0.238411023,,,,,yes,Unknown
+1,192,s78b,1,0,0,Netherlands,Europe,Savanna/Shrubland,most,52.05,4.2,permanent,360,360,1952,1952,2004,2004,52,22,11,11,34,,26,,,,mean,-0.268263987,,,,,yes,Unknown
+1,193,s79,1,1,0,Belgium,Europe,Forest,understory,51.11666667,3.375,semi-permanent,150,150,1977,1980,1997,1998,19,2,20,20,22.95,,22.75,,,,mean,-0.008752791,2.23,2.23,,,no,Pollution
+1,194,s79,1,1,0,Belgium,Europe,Forest,understory,51.11666667,3.375,semi-permanent,150,150,1977,1980,1997,1998,19,2,6,6,10.83,,7.17,,,,mean,-0.412414406,1.92,1.08,,,no,Pollution
+1,195,s80,1,1,0,"USA, Arizona",NorthAmerica,Forest,understory,35.189663,-111.674509,permanent,1,1,1912,1938,2007,2007,82,2,82,82,7.7,2.772056675,5.4,3.696075567,,,mean,-0.354821375,1.530394705,1.17557333,,,no,Canopy_closure
+1,196,s81,1,0,0,Netherlands,Europe,Wetland,most,53.43333333,5.466666667,permanent,50,150,1953,1953,1990,1990,37,15,17,17,14.9,5.7,8.2,2.2,,,mean,-0.597227059,,,,,yes,Hydrology
+1,197,s81,1,0,0,Netherlands,Europe,Wetland,most,53.43333333,5.466666667,permanent,50,250,1954,1954,1990,1990,36,14,10,10,18.4,7.2,11.3,2.5,,,mean,-0.487547939,,,,,yes,Hydrology
+1,198,s82,1,1,1,Brazil,SouthAmerica,Savanna/Shrubland,woody,-14.53333333,-51.56666667,permanent,6300,6300,1997,1997,2002,2002,5,2,1,1,72,,71,,,,mean,-0.013986242,3.1,3.13,0.72,0.73,no,Ongoing-fire
+1,199,s83,1,0,0,China,Asia,Forest,most,23.16666667,112.1666667,permanent,1,1,2003,2003,2008,2008,5,6,6,6,6.1761,2.133750515,8.3654,1.710723636,,,mean,0.303417147,,,,,yes,Unknown
+1,200,s84,1,0,0,China,Asia,Forest,most,23.16666667,112.1666667,permanent,1,1,2003,2003,2008,2008,5,6,6,6,3.832,1.530931089,5.988,3.167190237,,,mean,0.446370606,,,,,yes,Unknown
+1,201,s84,1,0,0,China,Asia,Forest,most,23.16666667,112.1666667,permanent,1,1,2003,2003,2008,2008,5,6,6,6,1.808,0.884265797,2.566,1.682799453,,,mean,0.350127004,,,,,yes,Unknown
+1,202,s85,1,0,0,Hungary,Europe,Grassland,most,47.46666667,21.95,permanent,4,4,1994,1994,2000,2000,6,7,5,5,21.4,,15.87,,,,mean,-0.298960387,,,,,no,Cessation_grazing
+1,203,s85,1,0,0,Hungary,Europe,Grassland,most,47.46666667,21.95,permanent,4,4,1994,1994,2000,2000,6,7,5,5,11.4,,11.27,,,,mean,-0.011469027,,,,,no,Unknown
+1,204,s86,1,0,0,United Kingdom,Europe,Grassland,most,53.08333333,-4.033333333,semi-permanent,232,232,1968,1968,2008,2008,40,2,32,32,36.8,3.676955262,23.8,3.563818177,,,mean,-0.435812264,,,,,no,Pollution
+1,205,s87,1,0,0,"USA, New Jersey",NorthAmerica,Grassland,most,40.5,-74.56666667,permanent,1,1,1958,1958,1998,1998,40,12,480,480,12.4,,11,,,,mean,-0.1198012,,,,,yes,Post-disturbance
+1,206,s88,1,1,1,Brazil,SouthAmerica,Forest,tree,-14.81666667,-52.1,permanent,6000,6000,2003,2003,2008,2008,5,2,1,1,84,,82,,,,mean,-0.024097552,3.34,3.37,0.75,0.76,no,Unknown
+1,207,s89,1,0,0,"USA, Wisconsin",NorthAmerica,Grassland,most,43.7,-88.7,permanent,1,1,1940,1949,1999,1999,54.5,2,420,420,10.6,2.3,12.8,3.9,,,mean,0.18859117,,,,,no,Post-fire
+1,208,s90,1,0,0,Ireland,Europe,Grassland,most,53,-9.00301,permanent,0.1,0.1,1992,1992,1997,1997,5,6,100,100,9.03957,2.6244,5.85581,1.6412,,,mean,-0.434177276,,,,,yes,Unknown
+1,209,s91,0,0,0,Bahamas,Caribbean,Many,most,24.21666667,-76.48333333,permanent,10,6000,1990,1990,2007,2007,17,2,77,77,,,,,-9.43,,mean,,,,,,no,Ongoing-disturbance
+1,210,s91,0,0,0,Bahamas,Caribbean,Many,most,24.21666667,-76.48333333,permanent,10,6000,1993,1993,2007,2007,14,2,29,29,,,,,-6.75,,mean,,,,,,no,Ongoing-disturbance
+1,211,s91,0,0,0,Bahamas,Caribbean,Many,most,24.21666667,-76.48333333,permanent,10,6000,1990,1990,2007,2007,17,2,46,46,,,,,-9,,mean,,,,,,no,Ongoing-disturbance
+1,212,s92,1,0,0,"USA, Tennessee",NorthAmerica,Forest,shrub,35.653321,-85.347573,semi-permanent,50,50,1952,1953,2000,2000,47.5,3,1,1,30,,13,,,,mean,-0.836248024,,,,,no,Post-disturbance
+1,213,s93,1,0,0,Puerto Rico,Caribbean,Grassland,most,18.33333,-65.75,permanent,10,10,1995,1995,2005,2005,10,11,25,25,12.1,,38,,,,mean,1.144380707,,,,,yes,Cessation_grazing
+1,214,s93,1,0,0,Puerto Rico,Caribbean,Grassland,most,18.33333,-65.75,permanent,10,10,2000,2000,2005,2005,5,6,25,25,30.7,,39.9,,,,mean,0.262113669,,,,,yes,Cessation_grazing
+1,215,s93,1,0,0,Puerto Rico,Caribbean,Grassland,most,18.33333,-65.75,permanent,10,10,2000,2000,2005,2005,5,6,25,25,33.7,,40.1,,,,mean,0.173878497,,,,,yes,Cessation_grazing
+1,216,s93,1,0,0,Puerto Rico,Caribbean,Grassland,most,18.33333,-65.75,permanent,10,10,2000,2000,2005,2005,5,6,25,25,49.7,,59.7,,,,mean,0.183327087,,,,,yes,Cessation_grazing
+1,217,s93,1,0,0,Puerto Rico,Caribbean,Grassland,most,18.33333,-65.75,permanent,10,10,2000,2000,2005,2005,5,6,25,25,49.9,,53.4,,,,mean,0.067789743,,,,,yes,Cessation_grazing
+1,218,s94,1,0,0,Germany,Europe,Forest,herb,53.314467,9.337921,permanent,100,400,1986,1988,2008,2009,21.5,2,175,175,28,,31.7,,,,mean,0.124112171,,,,,no,Unknown
+1,219,s95,1,0,0,Norway,Europe,Forest,understory,60.08333333,10.8,permanent,1,1,1931,1931,1991,1992,60.5,3,106,106,14.38,4.49,9.03,3.01,,,mean,-0.465285985,,,,,yes,Canopy_closure
+1,220,s96,1,0,0,Norway,Europe,Wetland,most,60.66666667,6.466666667,semi-permanent,0.5,0.5,1987,1987,2000,2000,13,12,40,40,6.44,,8.19,,,,mean,0.240385358,,,,,yes,Hydrology
+1,221,s97,1,0,0,Norway,Europe,Forest,most,58.96666667,8.966666667,permanent,1,1,1988,1988,1993,1993,5,6,50,50,28.5,,30.9,,,,mean,0.080852097,,,,,no,Unknown
+1,222,s97,1,0,0,Norway,Europe,Forest,most,58.96666667,8.966666667,permanent,1,1,1988,1988,1993,1993,5,6,50,50,18.4,,20.2,,,,mean,0.09333194,,,,,no,Unknown
+1,223,s97,1,0,0,Norway,Europe,Forest,most,58.96666667,8.966666667,permanent,1,1,1988,1988,1993,1993,5,6,50,50,14.1,,14.1,,,,mean,0,,,,,no,Unknown
+1,224,s97,1,0,0,Norway,Europe,Forest,most,58.96666667,8.966666667,permanent,1,1,1988,1988,1993,1993,5,6,50,50,18,,17.1,,,,mean,-0.051293294,,,,,no,Unknown
+1,225,s98,1,0,0,"USA, Minnesota",NorthAmerica,Forest,understory,45.425805,-93.199625,permanent,1,1,1983,1983,1997,1997,14,6,100,100,8.0029,,9.4828,,,,mean,0.169675655,,,,,yes,Post-disturbance
+1,226,s98,1,0,0,"USA, Minnesota",NorthAmerica,Forest,understory,45.425805,-93.199625,permanent,1,1,1983,1983,1997,1997,14,6,120,120,6.6841,,12.8121,,,,mean,0.650658465,,,,,yes,Post-disturbance
+1,227,s99,1,0,0,Greece,Europe,Grassland,most,37.155049,26.851602,permanent,2000,2000,1974,1974,1990,1994,18,2,1,1,13,,15,,,,mean,0.143100844,,,,,no,Unknown
+1,228,s99,1,0,0,Greece,Europe,Grassland,most,37.155049,26.851602,permanent,5000,5000,1974,1974,1990,1994,18,2,1,1,12,,9,,,,mean,-0.287682072,,,,,no,Unknown
+1,229,s99,1,0,0,Greece,Europe,Grassland,most,37.155049,26.851602,permanent,8000,8000,1974,1974,1990,1994,18,2,1,1,63,,57,,,,mean,-0.100083459,,,,,no,Unknown
+1,230,s100,1,0,0,Puerto Rico,Caribbean,Forest,woody,18.360554,-65.702806,permanent,1200,1200,1995,1995,2000,2000,5,2,6,6,17.33333333,4.501851471,15.16666667,3.763863264,,,mean,-0.133531393,,,,,no,Ongoing-disturbance
+1,231,s101,1,0,0,Austria,Europe,Grassland,most,47.05,11.08,permanent,1,1,1994,1994,2004,2004,10,2,362,362,11.4,,12.7,,,,mean,0.107988638,,,,,no,Climate
+1,232,s102,0,0,0,"Canada, Quebec",NorthAmerica,Wetland,most,47.45,-69.95,semi-permanent,25,25,1965,1966,1998,1998,32.5,2,57,57,,,,,-1.754,32.46428807,mean,,,,,,no,Unknown
+1,233,s103,0,1,0,"USA, Virginia",NorthAmerica,Wetland,most,37.649034,-75.620728,semi-permanent,1,1,1974,1974,1987,1987,13,2,34,83,,,,,,,,,0.955,0.951,,,no,Hydrology
+1,234,s104,1,0,1,Switzerland,Europe,Grassland,most,49.48333333,7.133333333,semi-permanent,25,25,1981,1981,2002,2004,22,2,69,69,30.7,,33.1,,,,mean,0.075270628,,,0.77,0.86,no,Management
+1,235,s104,1,0,1,Switzerland,Europe,Grassland,most,46.63333333,8.033333333,semi-permanent,25,25,1979,1981,2002,2004,23,2,82,82,33.1,,34.9,,,,mean,0.052953547,,,0.72,0.8,no,Management
+1,236,s104,1,0,1,Switzerland,Europe,Grassland,most,46.66666667,8.083333333,semi-permanent,100,100,1975,1975,2002,2004,28,2,42,42,34.2,,40.1,,,,mean,0.15915069,,,0.62,0.68,no,Management
+1,237,s104,1,0,1,Switzerland,Europe,Grassland,most,46.8,10.3,semi-permanent,25,25,1985,1986,2002,2004,17.5,2,66,66,36.3,,36.2,,,,mean,-0.002758622,,,0.74,0.8,no,Management
+1,238,s105,1,0,1,Switzerland,Europe,Grassland,most,46.339343,8.68927,semi-permanent,25,25,1981,1981,2002,2004,22,2,23,23,55,,51.8,,,,mean,-0.059943036,,,0.81,0.86,no,Management
+1,239,s105,1,0,1,Switzerland,Europe,Grassland,most,46.339343,8.68927,semi-permanent,25,25,1979,1981,2002,2004,23,2,42,42,48.4,,56,,,,mean,0.145851877,,,0.69,0.76,no,Management
+1,240,s105,1,0,1,Switzerland,Europe,Grassland,most,46.339343,8.68927,semi-permanent,100,100,1976,1979,2002,2004,25.5,2,57,57,58.1,,60.1,,,,mean,0.033844178,,,0.78,0.73,no,Management
+1,241,s105,1,0,1,Switzerland,Europe,Grassland,most,46.339343,8.68927,semi-permanent,25,25,1985,1985,2002,2004,18,2,29,29,47.1,,58.5,,,,mean,0.216753753,,,0.77,0.79,no,Management
+1,242,s106,1,0,0,Australia,Australia,Forest,most,-33.5,116.5,permanent,100,100,1991,1991,1997,1997,6,7,5,5,25.9784,7.121797898,25.2743,6.891538163,,,mean,-0.027477354,,,,,yes,Herbivory_grazing
+1,243,s106,1,0,0,Australia,Australia,Forest,most,-33.5,116.5,permanent,100,100,1991,1991,1997,1997,6,7,3,3,34.8408,6.220970785,38.2033,2.223270092,,,mean,0.092132785,,,,,yes,Unknown
+1,244,s107a,1,1,0,Belgium,Europe,Grassland,most,50.95,5.45,semi-permanent,100,100,1978,1978,2003,2003,25,2,13,13,5,,4,,,,median,-0.223143551,0.78,1.202,,,no,Herbivory_grazing
+1,245,s107a,1,1,0,Belgium,Europe,Grassland,most,50.95,5.45,semi-permanent,100,100,1978,1978,2003,2003,25,2,12,12,16,,17,,,,median,0.060624622,2.172,1.811,,,no,Herbivory_grazing
+1,246,s107b,1,1,0,Belgium,Europe,Savanna/Shrubland,most,50.95,5.45,semi-permanent,100,100,1978,1978,2003,2003,25,2,28,28,5,,5.5,,,,median,0.09531018,1.055,0.922,,,no,Herbivory_grazing
+1,247,s107b,1,1,0,Belgium,Europe,Savanna/Shrubland,most,50.95,5.45,semi-permanent,100,100,1978,1978,2003,2003,25,2,15,15,8,,9,,,,median,0.117783036,1.448,1.147,,,no,Herbivory_grazing
+1,248,s107b,1,1,0,Belgium,Europe,Savanna/Shrubland,most,50.95,5.45,semi-permanent,100,100,1978,1978,2003,2003,25,2,19,19,6,,7,,,,median,0.15415068,1.397,1.526,,,no,Herbivory_grazing
+1,249,s107c,1,1,0,Belgium,Europe,Forest,most,50.95,5.45,semi-permanent,100,100,1978,1978,2003,2003,25,2,10,10,14.5,,14,,,,median,-0.03509132,1.789,1.703,,,no,Herbivory_grazing
+1,250,s108,1,0,0,Czech Republic,Europe,Anthropogenic,most,49.75,13.38333333,semi-permanent,10,10,1960,1969,1996,2002,34.5,2,259,167,9.82143,5.14287,8.32143,3.96427,,,mean,-0.165732618,,,,,yes,Urbanization
+1,251,s109,1,0,0,"USA, Wisconsin",NorthAmerica,Forest,understory,43.4,-89.5,semi-permanent,1,1,1949,1950,2002,2004,53.5,2,1880,1880,8.5,,6.4,,,,mean,-0.283768173,,,,,no,Unknown
+1,252,s110,1,1,1,Brazil,SouthAmerica,Savanna/Shrubland,tree,-13.66666667,-45.58333333,permanent,13000,13000,1991,1991,2004,2004,13,2,1,1,62,,84,,,,mean,0.303682414,3.33,3.56,0.81,0.84,no,Post-fire
+1,253,s111,1,0,0,"USA, Wisconsin",NorthAmerica,Forest,understory,45.958788,-89.296875,semi-permanent,1,1,1942,1956,2000,2000,51,2,1240,1240,4.89,10.56409012,5.29,10.56409012,,,mean,0.078625942,,,,,no,Herbivory_grazing
+1,254,s112,1,0,0,"USA, Ohio",NorthAmerica,Forest,most,39.62,-84.1,semi-permanent,1,1,1996,1997,2003,2004,7,2,180,180,7.13,5.500727225,5.77,10.86729037,,,mean,-0.211639154,,,,,yes,Invasion
+1,255,s113,1,0,0,Australia,Australia,Savanna/Shrubland,herb,-12.570648,132.417297,permanent,40,40,1994,1995,2004,2005,10,3,220,220,23.4,,26.5,,,,mean,0.124408711,,,,,no,Ongoing-fire
+1,256,s113,1,0,0,Australia,Australia,Savanna/Shrubland,tree,-12.570648,132.417297,permanent,800,800,1994,1995,2004,2005,10,3,220,220,6.9,,6.7,,,2.966479395,mean,-0.029413885,,,,,no,Ongoing-fire
+1,257,s113,1,0,0,Australia,Australia,Savanna/Shrubland,shrub,-12.570648,132.417297,permanent,80,80,1994,1995,2004,2005,10,3,220,220,7.8,,8,,,5.93295879,mean,0.025317808,,,,,no,Ongoing-fire
+1,258,s113,1,0,0,Australia,Australia,Savanna/Shrubland,shrub,-12.570648,132.417297,permanent,400,400,1994,1995,2004,2005,10,3,220,220,13.7,,14,,,,mean,0.021661497,,,,,no,Ongoing-fire
+1,259,s114,1,1,1,Brazil,SouthAmerica,Forest,tree,-19.95,-40.51666667,permanent,10200,10200,1992,1993,2003,2004,11,2,1,1,385,,384,,,,mean,-0.002600782,5.27,5.22,0.89,0.88,no,Unknown
+1,260,s115,1,1,0,China,Asia,Forest,woody,42.225,128.025,permanent,200,200,1963,1963,2006,2006,43,2,26,26,16,,16,,,,mean,0,1.825,1.705,,,no,Climate
+1,261,s115,1,1,0,China,Asia,Forest,herb,42.225,128.025,permanent,4,4,1963,1963,2006,2006,43,2,10,10,26,,20,,,,mean,-0.262364264,2.73,2.4,,,no,Climate
+1,262,s115,1,1,0,China,Asia,Forest,herb,42.225,128.025,permanent,4,4,1963,1963,2006,2006,43,2,26,26,26,,13,,,,mean,-0.693147181,2.61,2.07,,,no,Climate
+1,263,s115,1,1,0,China,Asia,Forest,woody,42.225,128.025,permanent,200,200,1963,1963,2006,2006,43,2,16,16,11,,13,,,,mean,0.167054085,1.345,1.315,,,no,Climate
+1,264,s115,1,1,0,China,Asia,Forest,herb,42.225,128.025,permanent,4,4,1963,1963,2006,2006,43,2,16,16,19,,11,,,,mean,-0.546543706,2.46,1.77,,,no,Climate
+1,265,s115,1,1,0,China,Asia,Forest,woody,42.225,128.025,permanent,200,200,1963,1963,2006,2006,43,2,10,10,9,,10,,,,mean,0.105360516,1.125,1,,,no,Climate
+1,266,s116,1,0,0,Switzerland,Europe,Grassland,most,46.658627,10.17231,permanent,4,4,1941,1941,1999,1999,58,2,4,4,19.75,6.08,43.75,2.22,,,mean,0.795338121,,,,,no,Herbivory_grazing
+1,267,s117,1,0,0,"USA, Alaska",NorthAmerica,Tundra,most,68.63333333,-149.5666667,permanent,0.04,0.04,1983,1983,1995,1995,12,3,4,4,7.15,0.68,6.75,0.5,,,mean,-0.057569852,,,,,no,Unknown
+1,268,s118,0,0,0,United Kingdom,Europe,Many,most,53.51,-1.63,permanent,10,200,1978,1978,1998,1998,20,2,238,238,,,,,-1.26,,mean,,,,,,no,Unknown
+1,269,s119,1,0,0,Greece,Europe,Grassland,most,37.83333333,24.71666667,permanent,1000,1000,1971,1971,2000,2000,29,5,1,1,4,,4,,,,mean,0,,,,,no,Unknown
+1,270,s119,1,0,0,Greece,Europe,Grassland,most,38.86666667,24.56666667,permanent,2000,2000,1971,1971,1990,1990,19,3,1,1,34,,33,,,,mean,-0.029852963,,,,,no,Unknown
+1,271,s119,1,0,0,Greece,Europe,Grassland,most,37.85,24.73333333,permanent,5000,5000,1971,1971,2000,2000,29,5,1,1,18,,10,,,,mean,-0.587786665,,,,,no,Unknown
+1,272,s119,1,0,0,Greece,Europe,Grassland,most,37.88333333,24.95,permanent,7500,7500,1971,1971,2000,2000,29,5,1,1,20,,18,,,,mean,-0.105360516,,,,,no,Unknown
+1,273,s119,1,0,0,Greece,Europe,Grassland,most,38.83333333,24.53333333,permanent,1500,1500,1985,1985,1996,1996,11,3,1,1,18,,27,,,,mean,0.405465108,,,,,no,Unknown
+1,274,s119,1,0,0,Greece,Europe,Grassland,most,38.83333333,24.53333333,permanent,3600,3600,1985,1985,1996,1996,11,3,1,1,64,,73,,,,mean,0.131576358,,,,,no,Unknown
+1,275,s120,1,0,0,China,Asia,Grassland,herb,42.33333333,116.2833333,permanent,1,1,2005,2005,2010,2010,5,5,5,5,14.234,3.009170151,11.443,5.557033831,,,mean,-0.21825528,,,,,yes,Unknown
+1,276,s121,1,0,0,Australia,Australia,Savanna/Shrubland,most,-27.5,153.45,permanent,12,12,1968,1968,1976,1976,8,3,14,14,25.6,,22.8,,,,mean,-0.115831816,,,,,no,Post-fire
+1,277,s122a,1,1,1,India,Asia,Savanna/Shrubland,woody,11.78333333,77,semi-permanent,400,400,1997,1997,2008,2008,11,2,22,22,17,4.315182499,10.9,6.191348803,,,mean,-0.444450555,1.9,1.6,0.71,0.71,no,Invasion
+1,278,s122b,1,1,1,India,Asia,Forest,woody,11.78333333,77,semi-permanent,400,400,1997,1997,2008,2008,11,2,73,73,14.6,5.639042472,11.7,5.126402247,,,mean,-0.221432687,2,1.5,0.77,0.64,no,Invasion
+1,279,s122b,1,1,1,India,Asia,Forest,woody,11.78333333,77,semi-permanent,400,400,1997,1997,2008,2008,11,2,20,20,17.6,8.362894236,14.1,5.99266218,,,mean,-0.221724105,2.1,1.5,0.77,0.56,no,Invasion
+1,280,s122b,1,1,1,India,Asia,Forest,woody,11.78333333,77,semi-permanent,400,400,1997,1997,2008,2008,11,2,7,7,17.7,3.042614008,18.3,6.826038383,,,mean,0.03333642,2.2,2.3,0.76,0.82,no,Invasion
+1,281,s123,0,0,0,"USA, North Carolina",NorthAmerica,Forest,understory,35.996619,-78.96296,permanent,25,25,1977,1977,1999,2001,23,2,36,36,,,,,0.14,,,,,,,,no,Unknown
+1,282,s124,1,1,1,Uganda,Africa,Forest,tree,2.116666667,34.91666667,permanent,6400,6400,1968,1968,2006,2006,38,4,1,1,44,,45,,,,mean,0.022472856,3.146,3.117,0.826,0.819,no,Ongoing-disturbance
+1,283,s125,1,0,0,"USA, Tennessee",NorthAmerica,Forest,herb,35.598136,-83.846397,permanent,1000,1000,1977,1979,2004,2004,26,2,19,19,11,,9,,,,mean,-0.200670695,,,,,no,Herbivory_grazing
+1,284,s125,1,0,0,"USA, Tennessee",NorthAmerica,Forest,herb,35.598136,-83.846397,permanent,1000,1000,1977,1979,1995,2001,20,2,11,11,14.7,10.94486181,24.6,16.91478643,,,mean,0.514898949,,,,,no,Unknown
+1,285,s126,1,0,0,France,Europe,Forest,most,48.700478,6.063709,permanent,400,400,1972,1972,1991,1991,19,2,47,47,32,,39,,,,mean,0.197825743,,,,,no,Pollution
+1,286,s127,1,0,0,France,Europe,Forest,most,48.302152,4.51498,permanent,400,400,1971,1972,1990,1990,18.5,2,221,221,18.9,,25.2,,,,mean,0.287682072,,,,,no,Pollution
+1,287,s128,1,0,0,Brazil,SouthAmerica,Wetland,most,-22.819859,-53.428688,permanent,60,60,2002,2002,2008,2008,6,7,1,1,6,,12,,,,mean,0.693147181,,,,,yes,Unknown
+1,288,s129,1,0,0,South Africa,Africa,Savanna/Shrubland,most,-30.410782,18.180542,permanent,100,100,1996,1996,2006,2006,10,2,40,40,35.53,6.51429198,44.08,9.67656964,,,mean,0.215628755,,,,,no,Herbivory_grazing
+1,289,s129,1,0,0,South Africa,Africa,Savanna/Shrubland,most,-30.410782,18.180542,permanent,100,100,1996,1996,2006,2006,10,2,40,40,36.55,6.640783086,48,8.474904129,,,mean,0.272519825,,,,,no,Herbivory_grazing
+1,290,s130,1,0,0,France,Europe,Savanna/Shrubland,most,43.687705,3.81723,permanent,10,10,1969,1969,1975,1975,6,2,5,5,26.6,2.236067977,25.4,1.341640786,,,mean,-0.046162042,,,,,no,Unknown
+1,291,s131,1,1,1,Japan,Asia,Successional,most,42.53333333,140.25,permanent,10,10,1983,1983,1997,1997,14,15,6,6,10.288,12.76037187,14.0052,1.474837774,,,mean,0.308450522,1.0624,1.7288,0.5302,0.6502,yes,Post-disturbance
+1,292,s131,1,1,1,Japan,Asia,Successional,most,42.53333333,140.25,permanent,10,10,1983,1983,1997,1997,14,15,4,4,5.9948,6.335,15.0524,4.7118,,,mean,0.92064502,0.7431,1.9407,0.3851,0.7284,yes,Post-disturbance
+1,293,s131,1,1,1,Japan,Asia,Successional,most,42.53333333,140.25,permanent,10,10,1983,1983,1997,1997,14,15,4,4,12.2513,10.8378,16.0471,5.1832,,,mean,0.269896094,1.4096,2.1459,0.5181,0.7776,yes,Post-disturbance
+1,294,s132,1,0,0,Czech Republic,Europe,Forest,herb,50.708634,15.682068,permanent,625,625,1980,1980,1995,1995,15,4,9,9,20.0653,,16.1488,,,,mean,-0.217146212,,,,,yes,Pollution
+1,295,s132,1,0,0,Czech Republic,Europe,Forest,herb,50.708634,15.682068,permanent,625,625,1980,1980,1995,1995,15,4,9,9,17.9598,,14.3385,,,,mean,-0.2251877,,,,,yes,Pollution
+1,296,s132,1,0,0,Czech Republic,Europe,Forest,herb,50.708634,15.682068,permanent,625,625,1980,1980,1995,1995,15,4,9,9,18.5017,,14.6328,,,,mean,-0.234597035,,,,,yes,Pollution
+1,297,s133,1,0,0,Belgium,Europe,Forest,understory,50.3167,4.56667,semi-permanent,100,100,1967,1967,2005,2005,38,2,246,246,14,5,17,7,,,mean,0.194156014,,,,,no,Management
+1,298,s134,1,0,0,Belgium,Europe,Forest,most,50.251157,4.60453,semi-permanent,100,100,1957,1967,2005,2005,43,2,244,244,18.6,,15.8,,,,mean,-0.163151641,,,,,no,Management
+1,299,s134,0,1,0,Belgium,Europe,Forest,understory,50.251157,4.60453,semi-permanent,100,100,1957,1967,2005,2005,43,2,244,244,,,,,,,mean,,1.5,1.3,,,no,Management
+1,300,s135,1,0,0,United Kingdom,Europe,Grassland,most,54.521081,-2.292481,permanent,144,144,1990,1993,2006,2009,16,2,42,42,41,,39,,,,mean,-0.050010421,,,,,no,Pollution
+1,301,s136,1,0,0,Nicaragua,SouthAmerica,Forest,tree,12.18333333,-83.81666667,permanent,1000,1000,1989,1990,1998,1998,8.5,10,6,6,42.6,7.2,76.7,10.7,,,mean,0.588047455,,,,,yes,Post-disturbance
+1,302,s137,1,0,0,France,Europe,Forest,most,43.06666667,4.083333333,permanent,400,400,1996,1998,2008,2008,11,2,50,50,25,,25,,,,mean,0,,,,,no,Climate
+1,303,s138,0,0,0,Borneo,Asia,Forest,woody,-0.85,116.75,permanent,9300,9300,1976,1976,1992,1992,16,8,7,7,,,,,,,mean,,66.3,75.3,,,yes,Unknown
+1,304,s139_1,1,0,0,Belgium,Europe,Forest,understory,49.6,5.5,semi-permanent,100,100,1950,1950,2008,2008,58,2,43,43,,,,,,,,-0.3219,,,,,yes,Canopy_closure
+1,305,s139_2,1,0,0,Sweden,Europe,Forest,understory,58.01666667,17.1,semi-permanent,100,100,1971,1971,2003,2003,32,2,127,127,,,,,,,,0.2063,,,,,yes,Canopy_closure
+1,306,s139_3,0,0,0,Czech Republic,Europe,Forest,understory,48.9,16.6,semi-permanent,100,1000,1953,1963,2002,2003,44.5,2,50,50,,,,,,,,-0.2946,,,,,yes,Canopy_closure
+1,307,s139_4,1,0,0,Czech Republic,Europe,Forest,understory,48.8,16.7,semi-permanent,500,500,1953,1954,2006,2006,52.5,2,46,46,,,,,,,,-0.3133,,,,,yes,Canopy_closure
+1,308,s139_5,1,0,0,Germany,Europe,Forest,understory,51.5,10.1,semi-permanent,100,400,1980,1980,2001,2001,21,2,42,42,,,,,,,,0.0354,,,,,yes,Canopy_closure
+1,309,s139_6,1,0,0,Czech Republic,Europe,Forest,understory,50,14.5,semi-permanent,50,625,1986,1986,2008,2009,22.5,2,19,19,,,,,,,,0.3237,,,,,yes,Canopy_closure
+1,310,s139_7,1,0,0,Switzerland,Europe,Forest,understory,47.3,7.8,semi-permanent,100,400,1940,1965,1998,1998,45.5,2,37,37,,,,,,,,-0.0941,,,,,yes,Canopy_closure
+1,311,s139_8,1,0,0,France,Europe,Forest,understory,49.9,4.1,semi-permanent,500,800,1956,1965,1996,1998,36.5,2,22,22,,,,,,,,0.4263,,,,,yes,Canopy_closure
+1,312,s139_9,1,0,0,France,Europe,Forest,understory,50,3.6,semi-permanent,500,800,1957,1963,1995,1996,35.5,2,19,19,,,,,,,,0.1559,,,,,yes,Canopy_closure
+1,313,s139_10,1,0,0,Netherlands,Europe,Forest,understory,52.3,5.7,semi-permanent,100,250,1957,1959,1987,1988,29.5,2,27,27,,,,,,,,0.3322,,,,,yes,Canopy_closure
+1,314,s139_11,1,0,0,Germany,Europe,Forest,understory,48.3,11.7,semi-permanent,100,100,1986,1986,2003,2003,17,2,125,125,,,,,,,,0.1929,,,,,yes,Canopy_closure
+1,315,s139_12,1,0,0,Belgium,Europe,Forest,understory,51.2,4.7,semi-permanent,100,100,1982,1982,2008,2008,26,2,17,17,,,,,,,,0.4981,,,,,yes,Canopy_closure
+1,316,s139_13,1,0,0,Belgium,Europe,Forest,understory,51.1,4.8,semi-permanent,196,196,1980,1980,2004,2004,24,2,111,111,,,,,,,,-0.3054,,,,,yes,Canopy_closure
+1,317,s140,0,0,0,"USA, Alaska",NorthAmerica,Tundra,most,71.3,-156.6666667,permanent,1,1,1972,1972,2010,2010,38,4,53,53,,,,,-0.94,,,,,,,,no,Unknown
+1,318,s140,0,0,0,"USA, Alaska",NorthAmerica,Tundra,most,71.3,-156.6666667,permanent,1,1,1972,1972,2010,2010,38,4,20,20,,,,,2.3,,,,,,,,no,Unknown
+1,319,s140,0,0,0,"USA, Alaska",NorthAmerica,Tundra,most,71.3,-156.6666667,permanent,1,1,1972,1972,2010,2010,38,4,10,10,,,,,1.4,,,,,,,,no,Unknown
+1,320,s140,0,0,0,"USA, Alaska",NorthAmerica,Tundra,most,71.3,-156.6666667,permanent,1,1,1972,1972,2010,2010,38,4,60,40,,,,,2.68,,,,,,,,no,Unknown
+1,321,s140,0,0,0,"USA, Alaska",NorthAmerica,Tundra,most,71.3,-156.6666667,permanent,1,1,1972,1972,2010,2010,38,4,107,86,,,,,-0.38,,,,,,,,no,Unknown
+1,322,s140,0,0,0,"USA, Alaska",NorthAmerica,Tundra,most,71.3,-156.6666667,permanent,1,1,1972,1972,2010,2010,38,4,69,60,,,,,3.08,,,,,,,,no,Unknown
+1,323,s140,0,0,0,"USA, Alaska",NorthAmerica,Tundra,most,71.3,-156.6666667,permanent,1,1,1972,1972,2010,2010,38,4,40,20,,,,,0.45,,,,,,,,no,Unknown
+1,324,s140,0,0,0,"USA, Alaska",NorthAmerica,Tundra,most,71.3,-156.6666667,permanent,1,1,1972,1972,2010,2010,38,4,50,30,,,,,4.4,,,,,,,,no,Unknown
+1,325,s140,0,0,0,"USA, Alaska",NorthAmerica,Tundra,most,71.3,-156.6666667,permanent,1,1,1972,1972,2010,2010,38,4,21,11,,,,,4.27,,,,,,,,no,Unknown
+1,326,s141a,1,0,0,Switzerland,Europe,Grassland,most,46.23333333,7.1,semi-permanent,10,10,1968,1978,2006,2006,33,2,6,6,36.8,7.6,43.7,8.9,,,mean,0.171850257,,,,,no,Management
+1,327,s141a,1,0,0,Switzerland,Europe,Grassland,most,46.23333333,7.1,semi-permanent,10,10,1968,1978,2006,2006,33,2,13,13,40.3,8.1,46.3,8.1,,,mean,0.138790492,,,,,no,Management
+1,328,s141b,1,0,0,Switzerland,Europe,Tundra,most,46.65,7.916666667,permanent,1,1,1953,1954,2002,2002,48.5,3,23,23,31.9,3.8,25.8,3.8,,,mean,-0.212231518,,,,,no,Cessation_grazing
+1,329,s142,1,0,0,Sweden,Europe,Forest,woody,55.68,13.33,semi-permanent,16,16,1935,1935,2002,2006,69,4,74,74,2.9,,4.7,,,,mean,0.482851772,,,,,no,Unknown
+1,330,s142,1,0,0,Sweden,Europe,Forest,most,55.68,13.33,semi-permanent,1,1,1935,1935,2002,2006,69,4,74,74,8.58,3.096837096,5.16,1.634441801,,,mean,-0.508497334,,,,,yes,Unknown
+1,331,s143,1,0,0,Germany,Europe,Grassland,most,52.51666667,9.066666667,semi-permanent,18,35,1950,1960,2008,2008,53,2,131,25,27,7.462686567,15,4.47761194,,,median,-0.587786665,,,,,no,Management
+1,332,s143,1,0,0,Germany,Europe,Grassland,most,52.26666667,10.51666667,semi-permanent,18,35,1950,1960,2008,2008,53,2,51,40,29,4.47761194,13,3.731343284,,,median,-0.802346473,,,,,no,Management
+1,333,s143,1,0,0,Germany,Europe,Grassland,most,51.43333333,11.03333333,semi-permanent,18,35,1950,1960,2008,2008,53,2,60,61,20,10.44776119,16,3.731343284,,,median,-0.223143551,,,,,no,Management
+1,334,s143,1,0,0,Germany,Europe,Grassland,most,51.36666667,12.15,semi-permanent,18,35,1950,1960,2008,2008,53,3,108,67,23,11.94029851,22,6.71641791,,,median,-0.044451763,,,,,no,Management
+1,335,s143,1,0,0,Germany,Europe,Grassland,most,52.06666667,12.21666667,semi-permanent,18,35,1950,1960,2008,2008,53,3,35,85,27,2.23880597,17,6.71641791,,,median,-0.462623522,,,,,no,Management
+1,336,s143,1,0,0,Germany,Europe,Grassland,most,52.71666667,12.21666667,semi-permanent,18,35,1950,1960,2008,2008,53,3,174,46,15,4.47761194,26,8.955223881,,,median,0.550046337,,,,,no,Management
+1,337,s144,1,0,0,Mongolia,Asia,Grassland,most,43.83333333,103.75,permanent,100,100,2000,2000,2007,2007,7,8,9,9,13.0042,3.7023,10.6181,3.8544,,,mean,-0.20271229,,,,,yes,Climate
+1,338,s145,1,0,0,Sweden,Europe,Tundra,most,68.01666667,18.81666667,semi-permanent,0.5,0.5,1987,1987,2007,2007,20,2,10,10,11.5,11.9,11,1.4,,,mean,-0.044451763,,,,,yes,Climate
+1,339,s145,1,0,0,Sweden,Europe,Tundra,most,68.01666667,18.81666667,semi-permanent,0.5,0.5,1987,1987,2007,2007,20,2,10,10,11.1,11.2,7.3,3.2,,,mean,-0.41907076,,,,,yes,Climate
+1,340,s145,1,0,0,Sweden,Europe,Tundra,most,68.01666667,18.81666667,semi-permanent,0.5,0.5,1987,1987,2007,2007,20,2,10,10,9.1,9.1,8.5,4,,,mean,-0.06820825,,,,,yes,Climate
+1,341,s145,1,0,0,Sweden,Europe,Tundra,most,68.01666667,18.81666667,semi-permanent,0.5,0.5,1987,1987,2007,2007,20,2,10,10,4.8,4.8,1.8,2.2,,,mean,-0.980829253,,,,,yes,Climate
+1,342,s145,1,0,0,Sweden,Europe,Tundra,most,68.01666667,18.81666667,semi-permanent,0.5,0.5,1987,1987,2007,2007,20,2,10,10,1.5,1.4,0.8,1.1,,,mean,-0.628608659,,,,,yes,Climate
+1,343,s146,1,0,0,New Zealand,Australia,Forest,woody,-43.16666667,172.75,permanent,400,400,1984,1985,1993,1994,9,2,249,250,10.1,,15.3,,,,mean,0.415317405,,,,,no,Unknown
+1,344,s147,1,1,0,"USA, Michigan",NorthAmerica,Forest,understory,46.03333333,-87.15,permanent,1,1,1978,1980,2002,2007,25.5,2,730,730,5.2,,4.2,,,,mean,-0.2135741,1,0.8,,,no,Unknown
+1,345,s148,1,0,0,"USA, South Carolina",NorthAmerica,Forest,tree,33.78333333,-80.76666667,permanent,10000,10000,1989,1990,2002,2002,12.5,3,3,3,17.7,3.2,18,3.6,,,mean,0.016807118,,,,,no,Post-disturbance
+1,346,s148,1,0,0,"USA, South Carolina",NorthAmerica,Forest,tree,33.78333333,-80.76666667,permanent,10000,10000,1989,1990,2002,2002,12.5,3,3,3,14.3,2.5,16.3,2.5,,,mean,0.130905571,,,,,no,Post-disturbance
+2,347,s149,1,0,0,Brazil,SouthAmerica,Forest,tree,-15.4075,-55.84,permanent,600,600,1996,1996,2010,2010,14,5,18,18,28.7,,30.84,,,,mean,0.071915426,,,,,yes,Ongoing-fire
+2,348,s150,1,0,0,Sweden,Europe,Many,most,59.585004,18.938894,permanent,1995,10000,1908,1908,2008,2008,100,2,7,3,24.42639573,,47.57672479,,,,SARpred,0.666679327,,,,,yes,Unknown
+2,349,s151,1,0,0,Brazil,SouthAmerica,Forest,most,-15.954324,-47.917938,permanent,1000,1000,1985,1985,2012,2012,27,10,19,19,29.12,,29.75,,,,mean,0.021403909,,,,,yes,Ongoing-fire
+2,350,s152,1,1,1,Spain,Europe,Grassland,most,42.75255,-0.351814,semi-permanent,<10000,<10000,1972,1972,2005,2005,33,2,11,11,21,8.89,24.33,7.36,,,mean,0.147187719,1.53,2.28,0.51,0.72,no,Herbivory_grazing
+2,351,s152,1,1,1,Spain,Europe,Grassland,most,42.75255,-0.351814,semi-permanent,<10000,<10000,1972,1972,2005,2005,33,2,9,9,25.44,8.97,31.33,10.8,,,mean,0.208253366,1.64,2.35,0.53,0.69,no,Herbivory_grazing
+2,352,s153,1,0,0,"USA, Illinois",NorthAmerica,Grassland,most,41.889537,-88.084598,semi-permanent,0.25,0.25,1976,1976,2001,2001,25,2,425,425,8.9611,2.670123203,10.7419,2.670123203,,,mean,0.181258995,26.0985,27.2041,0.5798,0.5142,yes,Ongoing-fire
+2,353,s153,1,0,0,"USA, Illinois",NorthAmerica,Grassland,most,41.889537,-88.084598,semi-permanent,0.25,0.25,1976,1976,2001,2001,25,2,425,425,11.975,2.942248174,11.8396,3.26879814,,,mean,-0.011371298,26.8674,29.3592,0.5798,0.5602,yes,Ongoing-fire
+2,354,s154,1,0,1,Italy,Europe,Wetland,most,46.35,11.733,permanent,1,1,2002,2002,2009,2009,7,4,6,6,9.1,2.033076487,8.6,1.469693846,,,mean,-0.05651221,,,0.81,0.82,yes,Ongoing-disturbance
+2,355,s154,1,0,1,Italy,Europe,Wetland,most,46.35,11.733,permanent,1,1,2002,2002,2009,2009,7,4,4,4,10.4,1.8,9.03,2.54,,,mean,-0.141253439,,,0.82,0.86,yes,Ongoing-disturbance
+2,356,s155,1,0,0,Spain,Europe,Tundra,most,37.052755,-3.309426,permanent,1,1,2001,2001,2008,2008,7,2,16,16,9.3,3.9,8.1,2.9,,,mean,-0.138150338,,,,,no,Climate
+2,357,s155,1,0,0,Spain,Europe,Tundra,most,37.052755,-3.309426,permanent,1,1,2001,2001,2008,2008,7,2,16,16,11.6,2.9,10.8,2.3,,,mean,-0.071458964,,,,,no,Climate
+2,358,s155,1,0,0,Spain,Europe,Tundra,most,37.052755,-3.309426,permanent,1,1,2001,2001,2008,2008,7,2,16,16,5.8,1.7,5.3,2.1,,,mean,-0.090151097,,,,,no,Climate
+2,359,s155,1,0,0,Spain,Europe,Tundra,most,37.052755,-3.309426,permanent,1,1,2001,2001,2008,2008,7,2,16,16,0.8,1.1,0.9,1.3,,,mean,0.117783036,,,,,no,Climate
+2,360,s156,1,0,0,Mexico,NorthAmerica,Forest,tree (saplings),16.707068,-91.306077,permanent,84,84,2008,2008,2013,2013,5,2,1,1,30,,28,,,,mean,-0.068992871,2.93,2.8,,,yes,Unknown
+2,361,s157,1,0,0,Italy,Europe,Tundra,most,46.34166,10.4916,permanent,0.01,0.01,2005,2005,2011,2011,6,2,11,11,5.45,1.01,7.14,1.76,,,mean,0.270097168,,,,,yes,Climate
+2,362,s158,1,0,0,Bolivia,SouthAmerica,Forest,tree,-15.783,-62.916,permanent,10000,10000,2001,2001,2009,2009,8,2,9,9,123,2.831632653,122,2.816326531,,,mean,-0.008163311,,,,,no,Unknown
+2,363,s159,1,0,0,"USA, Minnesota",NorthAmerica,Savanna/Shrubland,understory,45.424251,-93.200677,permanent,375,375,1984,1984,2010,2010,26,6,3,4,32.5721,14.74806622,34.5897,4.8844,,,mean,0.060099856,,,,,yes,Unknown
+2,364,s160,1,0,0,New Zealand,Australia,Many,most,-37.058545,175.944041,permanent,800,800,1968,1968,2013,2013,45,2,1,1,16,,27,,,,mean,0.523248144,,,,,no,Unknown
+2,365,s161,1,0,0,France,Europe,Grassland,most,43.516,4.8333,permanent,4,4,2004,2004,2009,2009,5,3,10,10,28.0514,5.580471387,33.4656,3.513922936,,,mean,0.176479504,,,,,yes,Unknown
+2,366,s161,1,0,0,France,Europe,Grassland,most,43.516,4.8333,permanent,4,4,2004,2004,2009,2009,5,3,10,10,30.3048,3.513606708,38.0066,7.440839334,,,mean,0.226453713,,,,,yes,Unknown
+2,367,s162,1,1,0,"USA, Kansas",NorthAmerica,Grassland,most,39.089301,-96.578465,permanent,10,10,1991,1991,2009,2009,18,19,11,11,18.258,3.387268898,16.8132,2.891765155,,,mean,-0.082439048,1.7476,1.7189,,,yes,Unknown
+2,368,s162,1,1,0,"USA, Kansas",NorthAmerica,Grassland,most,39.089301,-96.578465,permanent,10,10,1991,1991,2009,2009,18,19,10,10,12.379,3.38743183,15.2936,3.150893461,,,mean,0.211432952,1.6005,1.5976,,,yes,Unknown
+2,369,s163,1,0,0,New Zealand,Australia,Grassland,most,-44.581426,169.747154,permanent,0.25,0.25,1982,1986,2005,2007,22,3,6200,6200,8.3412,20.2,8.1412,20.4,,,mean,-0.024269502,,,,,yes,Invasion
+2,370,s164,1,1,0,Germany,Europe,Wetland,most,53.045904,8.48364,permanent,500,800,1978,1978,1999,1999,21,22,6,6,11.28591667,3.979526131,6.044433333,3.75334455,,,mean,-0.624417897,1.173316667,0.766366667,,,yes,Unknown
+2,371,s165,1,0,0,Brazil,SouthAmerica,Forest,tree,-22.82916,-47.109,permanent,10000,10000,1982,1985,2004,2004,20.5,4,1,1,101,,113,,,,mean,0.112267302,,,,,no,Fragmentation
+2,372,s166,1,0,0,"USA, Calfornia",NorthAmerica,Grassland,most,38.85,-123.5,permanent,1,1,2000,2000,2010,2010,10,11,190,190,14.0242,,15.2624,,,,mean,0.084607879,,,,,yes,Climate
+2,373,s166,1,0,0,"USA, Calfornia",NorthAmerica,Grassland,most,38.85,-123.5,permanent,1,1,2000,2000,2010,2010,10,11,210,210,13.0626,,13.4578,,,,mean,0.029805678,,,,,yes,Climate
+2,374,s167,1,0,0,"USA, Colorado",NorthAmerica,Forest,most,39.22012,-105.336861,permanent,1000,1000,1996,1997,2007,2007,10.5,6,10,10,39.8,,56.3,,,,median,0.346827623,,,,,yes,Ongoing-fire
+2,375,s167,1,0,0,"USA, Colorado",NorthAmerica,Forest,most,39.22012,-105.336861,permanent,1000,1000,1996,1997,2007,2007,10.5,6,6,6,37.6,,59.9,,,,median,0.465672455,,,,,yes,Ongoing-fire
+2,376,s167,1,0,0,"USA, Colorado",NorthAmerica,Forest,most,39.22012,-105.336861,permanent,1000,1000,1996,1997,2007,2007,10.5,6,4,4,37.6,,53.2,,,,median,0.347054346,,,,,yes,Ongoing-fire
+2,377,s168,1,0,0,Brazil,SouthAmerica,Forest,tree,-20.7955,-42.8472,permanent,100,100,2000,2001,2009,2010,9,2,100,100,18.4,,18.4,,,,mean,0,,,,,yes,Unknown
+2,378,s169,1,0,0,Malaysia,Asia,Forest,tree (saplings),4.20653,114.017324,permanent,400,400,1992,1992,2008,2008,16,4,1300,1300,36.8086,,36.1253,,,,mean,-0.018738063,,,,,yes,Defaunation
+2,379,s170,1,1,0,"USA, Indiana",NorthAmerica,Forest,most,40.31716,-86.920612,semi-permanent,3,3,1996,1997,2010,2010,13.5,2,85,85,20.1,6.45368112,26.9,8.297590012,,,mean,0.251314428,2.7,3,0.91,0.92,no,Cessation_grazing
+2,380,s170,1,1,0,"USA, Indiana",NorthAmerica,Forest,most,40.31716,-86.920612,semi-permanent,3,3,1996,1997,2010,2010,13.5,2,23,23,26,5.754997828,27.3,6.23458098,,,mean,0.080042708,3,3,0.92,0.92,no,Unknown
+2,381,s171,1,0,0,"USA, Wisconsin",NorthAmerica,Forest,understory,43.624721,-89.431197,semi-permanent,1,1,1950,1954,2007,2008,55.5,2,800,800,6.5,,6.8,,,,mean,0.045120435,,,,,no,Unknown
+2,382,s172,1,0,0,"Norway, Jan Mayen Island",Europe,Tundra,most,71.000398,-8.324963,semi-permanent,1,1,1930,1930,2010,2010,80,2,233,233,9.5,,8.9,,,,mean,-0.065240522,,,,,no,Climate
+2,383,s172,1,0,0,"Norway, Jan Mayen Island",Europe,Tundra,most,71.000398,-8.324963,semi-permanent,0.64,0.64,1991,1991,2010,2010,19,2,200,200,9,,7.6,,,,mean,-0.16907633,,,,,no,Climate
+2,384,s173,1,1,0,"USA, New York",NorthAmerica,Wetland,most,42.748084,-74.919055,semi-permanent,4,4,2004,2004,2010,2010,6,2,5,5,28.8,1.788854382,16.4,7.021395873,,,mean,-0.563094052,2.428,2.178,,,no,Hydrology
+2,385,s173,1,1,0,"USA, New York",NorthAmerica,Wetland,most,42.748084,-74.919055,semi-permanent,4,4,2004,2004,2010,2010,6,2,5,5,26.2,7.463243263,18.8,6.099180273,,,mean,-0.331902541,1.826,1.876,,,no,Hydrology
+2,386,s174a,1,1,0,Germany,Europe,Wetland,most,54.183151,12.571531,semi-permanent,25,50,1967,1970,2010,2010,41.5,2,33,33,22.2,,15.9,,,,mean,-0.33377318,1.686398954,1.808288771,,,no,Post-disturbance
+2,387,s174b,1,1,0,Germany,Europe,Forest,most,54.183151,12.571531,semi-permanent,400,400,1967,1970,2010,2010,41.5,2,24,24,36.5,,27.5,,,,mean,-0.283126256,2.341805806,2.351375257,,,no,Post-disturbance
+2,388,s174c,1,1,0,Germany,Europe,Wetland,most,54.183151,12.571531,semi-permanent,16,20,1967,1970,2010,2010,41.5,2,20,20,32.8,,25.4,,,,mean,-0.255679341,2.302585093,2.292534757,,,no,Post-disturbance
+2,389,s175,1,0,0,Czech Republic,Europe,Forest,understory,48.866,16.65,semi-permanent,200,500,1953,1964,2002,2003,44,2,122,122,36.90163934,11.66173327,25.45081967,9.25429707,,,mean,-0.371508027,,,,,yes,Post-disturbance
+2,390,s176,1,0,0,Czech Republic,Europe,Grassland,most,48.9531388,14.59277,permanent,0.25,0.25,1994,1994,2008,2008,14,15,3,3,4.203426391,,4.535793315,,,,mean,0.0761,,,,,yes,Unknown
+2,391,s177,1,0,0,United Kingdom,Europe,Grassland,most,56.985592,-7.456608,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,38,38,20.29787,,24.51064,,4.21,,mean,0.188591355,,,,,no,Unknown
+2,392,s177,1,0,0,United Kingdom,Europe,Grassland,most,57.485798,-7.28316,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,9,9,21.57143,,18.21429,,-3.36,,mean,-0.169163303,,,,,no,Unknown
+2,393,s177,1,0,0,United Kingdom,Europe,Grassland,most,56.717724,-6.563997,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,49,49,16.58824,,26.66176,,10.07,,mean,0.474536319,,,,,no,Unknown
+2,394,s177,1,0,0,United Kingdom,Europe,Grassland,most,56.086742,-6.212619,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,62,62,11.3,,26,,14.7,,mean,0.833293812,,,,,no,Unknown
+2,395,s177,1,0,0,United Kingdom,Europe,Grassland,most,57.769842,-7.235233,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,30,30,25.78261,,20.65217,,-5.13,,mean,-0.221879835,,,,,no,Unknown
+2,396,s177,1,0,0,United Kingdom,Europe,Grassland,most,55.78786,-6.195652,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,69,69,16.15789,,25.05263,,8.89,,mean,0.438570337,,,,,no,Unknown
+2,397,s177,1,0,0,United Kingdom,Europe,Grassland,most,58.029469,-6.809324,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,54,54,28.6875,,26.5375,,-2.15,,mean,-0.077902661,,,,,no,Unknown
+2,398,s177,1,0,0,United Kingdom,Europe,Grassland,most,57.522177,-7.617008,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,20,20,21.31429,,18.25714,,-3.06,,mean,-0.154821503,,,,,no,Unknown
+2,399,s177,1,0,0,United Kingdom,Europe,Grassland,most,58.398557,-4.73447,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,155,155,27.47826,,26.45652,,-1.02,,mean,-0.037892516,,,,,no,Unknown
+2,400,s177,1,0,0,United Kingdom,Europe,Grassland,most,57.618651,-7.371189,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,151,151,25.34225,,24.9893,,-0.35,,mean,-0.01402523,,,,,no,Unknown
+2,401,s177,1,0,0,United Kingdom,Europe,Grassland,most,59.248551,-2.601038,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,67,67,21.74468,,21.78723,,0.04,,mean,0.001954888,,,,,no,Unknown
+2,402,s177,1,0,0,United Kingdom,Europe,Grassland,most,60.559516,-1.131617,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,33,33,22.5,,19.20588,,-3.29,,mean,-0.158298827,,,,,no,Unknown
+2,403,s177,1,0,0,United Kingdom,Europe,Grassland,most,57.193833,-7.338493,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,77,77,18.67021,,23.64894,,4.98,,mean,0.236389088,,,,,no,Unknown
+2,404,s177,1,0,0,United Kingdom,Europe,Grassland,most,56.505974,-6.948479,semi-permanent,25,25,1975,1977,2009,2010,33.5,2,39,39,16.96429,,27.19048,,10.23,,mean,0.471756366,,,,,no,Unknown
+2,405,s178,1,0,0,"Canada, British Columbia",NorthAmerica,Many,understory,48.519163,-123.427425,semi-permanent,400,400,1968,1969,2009,2009,40.5,2,184,184,21.53,9.3,29.7,9.9,,,mean,0.321699734,,,,,no,Ongoing-disturbance
+2,406,s179,1,0,0,"USA, Kansas",NorthAmerica,Grassland,forb,39.089301,-96.578465,permanent,10,10,1993,1993,2010,2010,17,18,40,40,10.2964,,8.7879,,,,mean,-0.158418544,,,,,yes,Pollution
+2,407,s180,1,0,0,Germany,Europe,Anthropogenic,most,51.365828,10.44265,semi-permanent,25,100,1951,1962,2009,2009,52.5,2,392,392,24,,7,,,,median,-1.232143681,,,,,no,Management
+2,408,s181,1,1,1,Spain,Europe,Savanna/Shrubland,most,"43.071840,",-8.155881,semi-permanent,50,50,1980,1980,2006,2006,26,2,10,10,23.6,7.06,18.6,6.59,,,mean,-0.238085131,2.17,1.75,0.72,0.57,no,Management
+2,409,s182,1,1,0,"USA, Ohio",NorthAmerica,Forest,herb,39.982775,-81.000834,permanent,2,2,1997,1997,2012,2012,15,4,70,70,5.7,,5.1,,,,mean,-0.111225635,1.36,1.24,,,yes,Unknown
+2,410,s183,1,0,0,Hungary,Europe,Grassland,bryophyte,47.083,19.083,permanent,0.25,0.25,2002,2002,2010,2010,8,9,25,25,4.5,1.5,3,1,,,mean,-0.405465108,,,,,no,Unknown
+2,411,s183,1,0,0,Hungary,Europe,Grassland,bryophyte,47.083,19.083,permanent,0.25,0.25,2002,2002,2010,2010,8,9,25,25,8.3,1.9,9.6,1.7,,,mean,0.145507584,,,,,no,Unknown
+2,412,s184,1,0,0,Norway,Europe,Tundra,most,60.616,7.523,permanent,0.18,0.18,2000,2000,2011,2011,11,3,40,40,15.4964,2.532346688,16.9638,4.581955031,,,mean,0.090473923,,,,,yes,Unknown
+2,413,s185,1,0,0,Spain,Europe,Savanna/Shrubland,most,42.616,0.033,semi-permanent,2400,2400,1998,1998,2009,2009,11,2,1,1,37,,37,,,,mean,0,,,0.82,0.86,yes,Unknown
+2,414,s185,1,0,0,Spain,Europe,Savanna/Shrubland,most,42.65,0.0166,semi-permanent,3000,3000,1998,1998,2009,2009,11,2,1,1,23,,36,,,,mean,0.448024723,,,0.78,0.78,no,Unknown
+2,415,s186a,1,0,0,Sweden,Europe,Wetland,most,60.284571,17.846777,permanent,0.25,0.25,1960,1960,2012,2012,52,2,56,56,8.482142857,3.442995902,9.303571429,2.840740255,,,mean,0.092435238,,,,,no,Unknown
+2,416,s186b,1,0,0,Sweden,Europe,Wetland,most,60.284571,17.846777,permanent,0.25,0.25,1960,1960,2012,2012,52,2,55,55,13.58181818,2.506960009,12.07272727,2.184580182,,,mean,-0.117783036,,,,,no,Unknown
+2,417,s187,1,0,0,Australia,Australia,Tundra,most,-36.428247,148.282276,permanent,1,1,2007,2007,2013,2013,6,2,26,26,4.4924,2.680825243,3.1552,2.58131068,,,mean,-0.353335195,,,,,yes,Climate
+2,418,s187,1,0,0,Australia,Australia,Tundra,most,-36.428247,148.282276,permanent,1,1,2007,2007,2013,2013,6,2,30,30,4.6947,2.011075972,5.1984,2.406075836,,,mean,0.101916673,,,,,yes,Climate
+2,419,s187,1,0,0,Australia,Australia,Tundra,most,-36.428247,148.282276,permanent,1,1,2007,2007,2013,2013,6,2,27,27,3.8197,1.217713318,4.8417,1.657181342,,,mean,0.237094013,,,,,yes,Climate
+2,420,s188,1,0,0,"Canada, Quebec",NorthAmerica,Wetland,most,47.966,-69.433,semi-permanent,300,300,1999,1999,2007,2007,8,5,24,24,8.6064,,16.9409,,,,mean,0.677224704,,,,,yes,Post-disturbance
+2,421,s188,1,0,0,"Canada, Quebec",NorthAmerica,Wetland,most,47.966,-69.433,semi-permanent,75,75,1999,1999,2007,2007,8,5,20,20,14.7777,,15.3759,,,,mean,0.039682061,,,,,yes,Post-disturbance
+2,422,s189,1,0,0,Argentina,SouthAmerica,Grassland,most,-35.283,-57.5,semi-permanent,2500,2500,1968,1968,2003,2003,35,2,29,29,46,8.48,67,12.74,,,mean,0.376051223,,,,,no,Unknown
+2,423,s189,1,0,0,Argentina,SouthAmerica,Grassland,most,-35.283,-57.5,semi-permanent,2500,2500,1968,1968,2003,2003,35,2,22,22,20,5.96,22,8.39,,,mean,0.09531018,,,,,no,Unknown
+2,424,s190,1,0,0,Germany,Europe,Forest,most,52.0638,13.9,semi-permanent,400,400,1964,1966,2010,2010,45,2,31,31,16,,13,,,,median,-0.207639365,,,,,yes,Pollution
+2,425,s190,1,0,0,Germany,Europe,Forest,most,52.0638,13.9,semi-permanent,400,400,1964,1966,2010,2010,45,2,31,31,15,,23,,,,median,0.427444015,,,,,yes,Pollution
+2,426,s190,1,0,0,Germany,Europe,Forest,most,52.0638,13.9,semi-permanent,400,400,1964,1966,2010,2010,45,2,15,15,22,,28,,,,median,0.241162057,,,,,yes,Pollution
+2,427,s191,1,1,1,Brazil,SouthAmerica,Forest,tree,-15.853,-52.269,permanent,10000,10000,2003,2005,2009,2009,5,2,1,1,79,,84,,,,mean,0.061368946,3.71,3.74,0.84,0.84,no,Ongoing-fire
+2,428,s192,1,0,0,Germany,Europe,Tundra,most,47.546908,12.916949,semi-permanent,16,30,1961,1963,2012,2012,50,2,14,14,,,,,,,median,0.034,,,,,yes,Climate
+2,429,s192,1,0,0,Germany,Europe,Tundra,most,47.546908,12.916949,semi-permanent,6,32,1961,1963,2012,2012,50,2,14,14,,,,,,,median,0.41,,,,,yes,Climate
+2,430,s192,1,0,0,Germany,Europe,Tundra,most,47.546908,12.916949,semi-permanent,16,25,1961,1963,2012,2012,50,2,7,7,,,,,,,median,-0.4,,,,,yes,Climate
+2,431,s193,1,0,0,Norway,Europe,Tundra,most,68.88,19.613,permanent,0.25,0.25,1979,1979,2010,2010,31,2,14,14,8.9,4.5,14.7,4.9,,,mean,0.501796217,,,,,no,Climate
+2,432,s193,1,0,0,Norway,Europe,Tundra,most,68.88,19.613,permanent,0.25,0.25,1979,1979,2010,2010,31,2,34,34,3,2.3,5.5,2.4,,,mean,0.606135804,,,,,no,Climate
+2,433,s193,1,0,0,Norway,Europe,Wetland,most,68.88,19.613,permanent,0.25,0.25,1979,1979,2010,2010,31,2,70,70,5.5,3.5,5.8,2.8,,,mean,0.053109825,,,,,no,Climate
+2,434,s194,1,1,1,"Denmark, Greenland",Europe,Tundra,most,74.4666,-21.55,permanent,0.49,0.49,1997,1997,2008,2008,11,2,4,4,2.75,0.5,3.25,0.5,,,mean,0.167054085,0.77789461,0.702060573,0.792799105,0.61129956,no,Climate
+2,435,s194,1,1,1,"Denmark, Greenland",Europe,Tundra,most,74.4666,-21.55,permanent,0.49,0.49,1997,1997,2008,2008,11,2,5,5,3.4,2.073644135,4.4,0.894427191,,,mean,0.257829109,0.632651034,0.855990641,0.579875998,0.574784251,no,Climate
+2,436,s194,1,1,1,"Denmark, Greenland",Europe,Tundra,most,74.4666,-21.55,permanent,0.49,0.49,1997,1997,2008,2008,11,2,5,5,4.6,1.140175425,5.6,1.516575089,,,mean,0.196710294,0.757307206,1.064092773,0.507730861,0.619864817,no,Climate
+2,437,s194,1,1,1,"Denmark, Greenland",Europe,Tundra,most,74.4666,-21.55,permanent,0.49,0.49,1997,1997,2008,2008,11,2,5,5,2.4,0.547722558,4.2,1.923538406,,,mean,0.559615788,0.269845763,0.933508026,0.306208368,0.686445012,no,Climate
+2,438,s194,1,1,1,"Denmark, Greenland",Europe,Tundra,most,74.4666,-21.55,permanent,0.49,0.49,1997,1997,2008,2008,11,2,5,5,4.2,1.483239697,4.4,0.894427191,,,mean,0.046520016,0.776772065,0.936568521,0.538799757,0.628931749,no,Climate
+2,439,s194,1,1,1,"Denmark, Greenland",Europe,Tundra,most,74.4666,-21.55,permanent,0.49,0.49,1997,1997,2008,2008,11,2,5,5,5.8,1.095445115,4.8,1.303840481,,,mean,-0.189242,1.172202137,1.12808387,0.674941653,0.739607337,no,Climate
+2,440,s194,1,1,1,"Denmark, Greenland",Europe,Tundra,most,74.4666,-21.55,permanent,0.49,0.49,1997,1997,2008,2008,11,2,5,5,4.8,0.836660027,4.4,2.19089023,,,mean,-0.087011377,0.834884652,0.599422904,0.530076811,0.406550439,no,Climate
+2,441,s194,1,1,1,"Denmark, Greenland",Europe,Tundra,most,74.4666,-21.55,permanent,0.49,0.49,1997,1997,2008,2008,11,2,4,4,4.5,1,4.25,1.258305739,,,mean,-0.057158414,0.888810199,0.939366142,0.586869368,0.686352435,no,Climate
+2,442,s195,1,0,0,United Kingdom,Europe,Forest,understory,51.230744,0.08442,semi-permanent,200,200,1971,1971,2002,2002,31,2,143,143,12.378,24.80023514,15.9344,26.6136325,,,mean,0.252559591,,,,,yes,Ongoing-disturbance
+2,443,s195,1,0,0,United Kingdom,Europe,Forest,understory,51.668926,-1.44268,semi-permanent,200,200,1971,1971,2002,2002,31,2,150,150,14.3906,33.28463264,13.6469,25.11476826,,,mean,-0.053062826,,,,,yes,Unknown
+2,444,s196,1,0,0,China,Asia,Tundra,most,37.616,101.2,permanent,1,1,2005,2005,2010,2010,5,6,9,9,23.7,,24.8,,,,mean,0.045368605,,,,,yes,Unknown
+2,445,s197,1,1,0,"USA, Colorado",NorthAmerica,Tundra,most,40.05,-105.583,permanent,1,1,1989,1989,2010,2010,21,7,16,16,10.7383,0.5355,14.2013,0.4482,,,mean,0.27951672,1.35852,1.74198,,,yes,Unknown
+2,446,s197,1,1,0,"USA, Colorado",NorthAmerica,Tundra,most,40.05,-105.583,permanent,1,1,1989,1989,2010,2010,21,7,8,8,15.8325,0.6165,16.5897,0.3123,,,mean,0.046717231,2.21365,2.631633333,,,yes,Unknown
+2,447,s197,1,1,0,"USA, Colorado",NorthAmerica,Tundra,most,40.05,-105.583,permanent,1,1,1989,1989,2010,2010,21,7,22,22,9.877,0.664,11.5819,0.7951,,,mean,0.159234713,1.593986667,1.75956,,,yes,Unknown
+2,448,s197,1,1,0,"USA, Colorado",NorthAmerica,Tundra,most,40.05,-105.583,permanent,1,1,1989,1989,2010,2010,21,7,10,10,6.62,0.7115,11.2371,0.5582,,,mean,0.529125434,1.3256375,1.908225,,,yes,Unknown
+2,449,s197,1,1,0,"USA, Colorado",NorthAmerica,Tundra,most,40.05,-105.583,permanent,1,1,1989,1989,2010,2010,21,7,17,17,11.7294,0.5855,12.5605,0.5745,,,mean,0.068458459,1.82314,1.88982,,,yes,Unknown
+2,450,s197,1,1,0,"USA, Colorado",NorthAmerica,Tundra,most,40.05,-105.583,permanent,1,1,1989,1989,2010,2010,21,7,6,6,12.4695,1.7486,14.0337,1.6721,,,mean,0.118175917,1.76058,2.05095,,,yes,Unknown
+2,451,s198,1,0,0,Sweden,Europe,Grassland,most,58.2666,14.8166,permanent,8,8,2001,2001,2012,2012,11,7,5,5,40.7252,1.9235317,44.0603,1.88588098,,,mean,0.078712085,,,,,yes,Unknown
+2,452,s199,1,0,0,Belgium,Europe,Forest,understory,50.966,3.8166,permanent,100,100,1993,1993,2010,2011,17.5,2,20,20,13.5,4.3,17.2,4.9,,,mean,0.242219698,,,,,no,Unknown
+2,453,s199,1,0,0,Belgium,Europe,Forest,understory,50.966,3.8166,permanent,100,100,1993,1993,2010,2011,17.5,2,20,20,5.3,1.8,9.5,3.1,,,mean,0.583584978,,,,,no,Unknown
+2,454,s200,1,0,0,Australia,Australia,Tundra,most,-36.40926,148.281976,permanent,553,1180.5,2004,2004,2011,2011,7,2,20,20,27.2,,27.46,,,,mean,0.009513427,,,,,no,Climate
+2,455,s200,1,0,0,Australia,Australia,Tundra,most,-36.40926,148.281976,permanent,1895.25,2230,2004,2004,2011,2011,7,2,20,20,25.64,,31,,,,mean,0.189833572,,,,,no,Climate
+2,456,s201,1,0,0,Belgium,Europe,Forest,most,49.616,5.55,semi-permanent,50,400,1953,1954,2008,2008,54.5,2,16,16,13.6,,12.3,,,,mean,-0.10047053,,,,,no,Unknown
+2,457,s201,1,0,0,Belgium,Europe,Forest,most,49.616,5.55,semi-permanent,50,400,1953,1954,2008,2008,54.5,2,27,27,26.2,,20.5,,,,mean,-0.245334525,,,,,no,Unknown
+2,458,s202,0,0,0,Serbia,Europe,Wetland,most,44.939626,19.501463,permanent,6500,9200,1998,1998,2010,2010,12,2,3,3,8.333,,5,,,,mean,-0.510785623,,,,,yes,Unknown
+2,459,s203,1,0,0,Switzerland,Europe,Tundra,most,46.814149,10.072602,permanent,7664,7664,1911,1911,2011,2011,100,6,1,1,8,,18,,,,mean,0.810930216,,,,,no,Climate
+2,460,s204,1,0,0,China,Asia,Grassland,most,42.0333,116.283,permanent,1,1,2005,2005,2011,2011,6,2,8,8,14.073898,,13.246102,,,,mean,-0.060618556,,,,,yes,Unknown
