@@ -99,12 +99,46 @@ scatter_plot_data$site = factor(scatter_plot_data$site, levels = site_values, la
 # by setting strip.background and strip.text to element_blank(), and then adding the 6 row/column
 # labels manually.
 
-ggplot(scatter_plot_data, aes(x=sensor_value, y=gpp)) + 
+scatter_plot = ggplot(scatter_plot_data, aes(x=sensor_value, y=gpp)) + 
   geom_point() + 
+  geom_smooth(method='lm', se=FALSE, linetype='dashed', color='red', size=0.2) + 
   facet_wrap(site~sensor, scales='free', strip.position = 'left') +
+  theme_bw() + 
   theme(strip.background = element_blank(),
-        strip.text = element_blank()) 
+        strip.text = element_blank(),
+        axis.title = element_blank(),
+        panel.grid = element_blank(),
+        axis.text = element_text(face='bold', size=12)) 
 
+top_y = 0.98
+left_x_site = 0.01
+left_x_axis = 0.05
+bottom_y = 0.02
+scatter_plot_axis_labels = tribble(
+  ~label,         ~x,      ~y,   ~angle,
+  'WKG-Grassland', left_x_site, 0.8,  90,
+  'SRM-Savanna',   left_x_site, 0.5,  90,
+  'WHS-Shrubland', left_x_site, 0.2,  90,
+  
+  'GPP',           left_x_axis, 0.8,  90,
+  'GPP',           left_x_axis, 0.5,  90,
+  'GPP',           left_x_axis, 0.2,  90,
+  
+  'PhenoCam',      0.2,    top_y, 0,
+  'Landsat',       0.55,    top_y, 0,
+  'MODIS',         0.85,    top_y, 0,
+  
+  'VI',            0.2,    bottom_y, 0,
+  'VI',            0.5,    bottom_y, 0,
+  'VI',            0.85,    bottom_y, 0
+)
+
+# Insert the 3x3 scatter plot using draw_plot so it can be scaled slightly
+
+scatter_plot_with_labels = ggdraw() +
+  draw_plot(scatter_plot, scale=0.95, hjust = -0.02) +
+  geom_text(data = scatter_plot_axis_labels, aes(x=x,y=y,label=label,angle=angle),
+            hjust=0.5, fontface='bold', size=5)
 
 ##################################################
 # The barplots
@@ -122,11 +156,10 @@ barplot_landcover_details = tribble(
 
 barplot_data$landcover = factor(barplot_data$landcover, levels=barplot_landcover_details$landcover, ordered = TRUE)
 
-# This is what I believe is a better version of the barplot using facet_grid
-# which does not need to replicate each of the 3 plots.
-# It's here for reference. 
-a_better_barplot = 5
-ggplot(barplot_data, aes(x=sensor, y=percent, fill=landcover)) + 
+# This is "close enough" version of the bar plot. Replicating the original one from Yan 2019 exactly would
+# be clumsy here, as the each of the 3 barplots would need to be done individually to each have their own 
+# legend. 
+barplot = ggplot(barplot_data, aes(x=sensor, y=percent, fill=landcover)) + 
   geom_col(width=0.4) +
   scale_fill_manual(values = barplot_landcover_details$fill_color) + 
   scale_y_continuous(breaks=c(0,20,40,60,80), labels = function(x){paste0(x,'%')}, expand=c(0,0)) + 
@@ -145,3 +178,10 @@ ggplot(barplot_data, aes(x=sensor, y=percent, fill=landcover)) +
                              keyheight = unit(20,'mm'), keywidth = unit(5,'mm'),
                              label.theme = element_text(angle=90, hjust=0.5, face='bold')))
 
+####################################
+# And combine them
+
+#TODO: A-I labels. R2 and n values
+
+p=align_plots(scatter_plot_with_labels, barplot, align = 'v', axis='tb')
+plot_grid(p[[1]], p[[2]], nrow=1, rel_widths = c(1,0.5))
