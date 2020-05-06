@@ -1,6 +1,20 @@
 library(tidyverse)
 library(sf)
 
+##################################
+# This is a replication of Figure 1 from the following paper
+# Suggitt, A. J., Lister, D. G., & Thomas, C. D. (2019). Widespread effects of 
+# climate change on local plant diversity. Current Biology, 29(17), 2905-2911.
+# https://doi.org/10.1016/j.cub.2019.06.079
+
+# Data used here are roughly approximated from the original figure, and
+# not meant to replicate it exactly.
+##################################
+
+###############################################################
+###############################################################
+# Plot A, the map.
+
 # Kopen polygons from http://koeppen-geiger.vu-wien.ac.at/present.htm
 kopen_climate_regions = sf::read_sf('./suggitt2019/data/Koppen_Geiger Edited and Completed/Shapefiles/world_climates_completed_koppen_geiger.shp')
 
@@ -54,26 +68,7 @@ plot_A_map = ggplot() +
 
 ###############################################################
 ###############################################################
-# Create some data for the charts.
-# These are roughly equievlant to the actual charts from the paper,
-# though I am totally eyeballing these numbers.
-
-
-
-
-
-plot_E_data = tribble(
-  ~region, ~fill_color, ~pie_A, ~pie_B
-  'Arid', 'yellow',
-  'Equatorial', 'green',
-  'Warm temperate', 'purple',
-  'Cold', 'grey70',
-  'Polar', 'cyan'
-)
-
-##################################################
-# Pie Charts
-#
+# Plots B and C, Pie Charts
 
 pie_chart_data = tribble(
   ~region, ~fill_color, ~pie_B, ~pie_C,
@@ -86,9 +81,7 @@ pie_chart_data = tribble(
 
 # Matching the ordering is tricky here. The ggplot fill argument wants a factor, so by 
 # default it turn the region column into a factor ordered alphabetially. 
-# We must make a factor first using the order.
-# In the pie charts it will go 
-
+# We must make a factor first using the order specified in the tribble above. 
 
 pie_chart_data$region = fct_inorder(pie_chart_data$region)
 
@@ -119,7 +112,8 @@ pie_chart_C = ggplot(pie_chart_data, aes(x="", y=pie_C, fill=region)) +
         legend.position = 'none')
 
 ##################################################
-# subplot D temp/precip change plot
+##################################################
+# Plot D temp/precip change plot
 
 plot_D_data = tribble(
   ~region, ~fill_color, ~precip_mean, ~precip_sd, ~temp_mean, ~temp_sd,
@@ -130,7 +124,7 @@ plot_D_data = tribble(
   'Polar', 'cyan2',       0.06,        0.2,        0.109,      0.04 
 )
 
-# There is no good way to place axis text in the middle of the plot,
+# There is no good way to place axis text in the middle of the plot, instead of on the  left margin.
 # so this places it manually with geom_text
 y_axis_text = data.frame(y=seq(0, 0.18, 0.02),x=-0.1)
 
@@ -147,7 +141,7 @@ plot_D = ggplot(plot_D_data, aes(x=precip_mean,y=temp_mean)) +
   geom_point(aes(color=region), size=5) +
   geom_point(shape=1, stroke=1, size=5, color='black') +
   scale_color_manual(values=plot_D_data$fill_color) + 
-  scale_x_continuous(breaks=round(seq(-0.6,1,0.2),1)) + 
+  scale_x_continuous(breaks=round(seq(-0.6,1,0.2),1), limits=c(-0.6,1)) + 
   geom_text(data=y_axis_text, aes(x=x,y=y,label=y)) + 
   labs(y='Temperature change (+ °C per decade)', x='Precipitation change (± mm per decade',
        color='') + 
@@ -159,8 +153,10 @@ plot_D = ggplot(plot_D_data, aes(x=precip_mean,y=temp_mean)) +
         axis.title = element_text(),
         axis.ticks = element_blank(),
         legend.position = 'bottom')
+
 ##################################################
-# subplot E temp/precip change plot
+##################################################
+# Plot E temp/precip change plot
 
 plot_E_data = tribble(
   ~region, ~fill_color,    ~y0,   ~y25,   ~y50,   ~y75,   ~y100,
@@ -193,7 +189,7 @@ plot_E = ggplot(plot_E_data, aes(x=fct_rev(region), fill=region)) +
 ##################################################
 ##################################################
 # put it all together!
-# Cowplot is the best option here for fine tuning the sizien/scales of the 5 subplots.
+# Cowplot is the best option here for fine tuning the sizing and scales of the 5 subplots.
 library(cowplot)
 
 middle_legend = get_legend(pie_chart_B + theme(legend.position = c(0.5,0.4), 
@@ -202,7 +198,12 @@ middle_legend = get_legend(pie_chart_B + theme(legend.position = c(0.5,0.4),
                                                legend.direction = 'vertical'))
 middle_row = plot_grid(pie_chart_B,middle_legend, pie_chart_C, nrow=1, rel_widths = c(1,0.5,1), rel_heights = c(1,0.5,1), labels = c('B','','C'))
 
-bottom_row = plot_grid(plot_D, plot_E, rel_widths = c(0.9,0.8), labels = c('D','E'), hjust=c(0.5, -0.5))
+# Scale here is important to "shrink" the D plot a tad. 
+bottom_row = plot_grid(plot_D, plot_E, labels = c('D','E'),
+                       rel_widths = c(1,0.8), scale = c(0.9,0.9))
 
-final_plot = 5
-plot_grid(plot_A_map, middle_row, bottom_row, ncol=1, rel_widths = c(1,1,1), rel_heights = c(1,0.7,1))
+top_row = plot_grid(plot_A_map, labels = c('A'))
+
+final_plot = plot_grid(top_row, middle_row, bottom_row, ncol=1, rel_widths = c(1,0.8,1), rel_heights = c(1.5,1,1.5))
+
+save_plot('./suggitt2019/suggitt2019_final.png',plot = final_plot, base_height = 13, base_width = 10)
