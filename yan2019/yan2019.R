@@ -1,6 +1,17 @@
 library(tidyverse)
 library(cowplot)
 
+##################################
+# This is a replication of Figure 5 from the following paper
+# Yan, D., Scott, R. L., Moore, D. J. P., Biederman, J. A., & Smith, W. K. (2019). 
+# Understanding the relationship between vegetation greenness and productivity across 
+# dryland ecosystems through the integration of PhenoCam, satellite, and eddy covariance data. 
+# Remote Sensing of Environment, 223, 50–62. https://doi.org/10.1016/j.rse.2018.12.029
+
+# This figure uses simulated data and is not an exact copy. 
+# It's meant for educational purposes only.  
+##################################
+
 #####################################
 # Generate some similar looking data for the figures
 generate_random_timeseries = function(n,initial_value,error){
@@ -18,6 +29,7 @@ generate_correlated_timeseries = function(ts, error, scale_min, scale_max){
   return(scales::rescale(new_ts, to=c(scale_min,scale_max)))
 }
 
+set.seed(1)
 
 # The data consist of 3 locations, each with a GPP measurement (y axis) and 3 correlated visual indexes (Phenocam, landsat, & MODIS)
 grassland = data.frame(gpp = generate_random_timeseries(n=76, initial_value = 0, error = 0.5), site='grassland')
@@ -39,6 +51,7 @@ scatter_plot_data = grassland %>%
   bind_rows(savanna) %>%
   bind_rows(shrubland) %>%
   pivot_longer(cols=c(phenocam, landsat, modis), names_to = 'sensor', values_to = 'sensor_value')
+
 
 
 #### Now eyeball the data for the barplots
@@ -93,15 +106,40 @@ site_labels = c('WKG-Grassland','SRM-Savanna','WHS-Shrubland')
 scatter_plot_data$sensor = factor(scatter_plot_data$sensor, levels = sensor_values, labels = sensor_labels, ordered = T)
 scatter_plot_data$site = factor(scatter_plot_data$site, levels = site_values, labels = site_labels, ordered = T)
 
+# Note there are many ways to extract summary and model statistics
+# in a group_by operation. group_by + do, using purrr, there are also methods in 
+# the ggpmisc package which insert summary stats directly in figures.
+get_r2 = function(x,y){summary(lm(y~x))$r.squared}
+
+scatter_plot_labels = scatter_plot_data %>%
+  group_by(site, sensor) %>%
+  summarise(r2 = get_r2(x=sensor_value, y=gpp),
+            n=n(),
+            x_pos = min(sensor_value),
+            y_pos = max(gpp) - (0.03* diff(range(gpp)))) %>%
+  ungroup() %>%
+  mutate(r2_label = paste0('bold(R^2==',round(r2,2),')'),
+         n_label  = paste0('n =',n))
+
+# Order by site and sensor so the letter labels get ordered correctly.
+scatter_plot_labels = arrange(scatter_plot_labels, site, sensor)
+scatter_plot_labels$letter = c('(a)','(b)','(c)','(e)','(f)','(g)','(i)','(j)','(k)')
+
+
 # Here the best option for the 3x3 grid of plots is facet_wrap, since it handles all the alignment
 # it is too usefull not to use. The labelling of the rows and columns as in the original figure is
 # not possible with facet_wrap though. So here we'll essentially "turn off" the default labels 
 # by setting strip.background and strip.text to element_blank(), and then adding the 6 row/column
-# labels manually.
+# labels manually. The alignment of the text inside each plot is done manually in the scatter_plot_labels 
+# data.frame, and nudged slightly by hand  below using the hjust/vjust arguments. 
 
 scatter_plot = ggplot(scatter_plot_data, aes(x=sensor_value, y=gpp)) + 
   geom_point() + 
   geom_smooth(method='lm', se=FALSE, linetype='dashed', color='red', size=0.2) + 
+  geom_text(data=scatter_plot_labels, aes(x=x_pos, y=y_pos, label=letter),  hjust=0.4,  vjust=0.1, fontface='bold') + 
+  geom_text(data=scatter_plot_labels, aes(x=x_pos, y=y_pos, label=r2_label),hjust=0.15, vjust=1.5, fontface='bold', parse=TRUE) + 
+  geom_text(data=scatter_plot_labels, aes(x=x_pos, y=y_pos, label=n_label), hjust=0.25, vjust=3.8, fontface='bold') + 
+  scale_y_continuous(expand = expansion(mult=0.02)) + 
   facet_wrap(site~sensor, scales='free', strip.position = 'left') +
   theme_bw() + 
   theme(strip.background = element_blank(),
@@ -169,8 +207,8 @@ barplot = ggplot(barplot_data, aes(x=sensor, y=percent, fill=landcover)) +
         strip.text = element_blank(),
         panel.grid = element_blank(),
         plot.title = element_text(face='bold', hjust=0.5),
-        axis.text.x = element_text(face = 'bold', size=10),
-        axis.text.y = element_text(face = 'bold', angle = 90, hjust=0.5),
+        axis.text.x = element_text(face = 'bold', size=12),
+        axis.text.y = element_text(face = 'bold', size=12, angle = 90, hjust=0.5),
         legend.key.height  = unit(20,'mm'),
         ) +
   labs(x='',y='',title='Land cover proportions') +
@@ -183,5 +221,13 @@ barplot = ggplot(barplot_data, aes(x=sensor, y=percent, fill=landcover)) +
 
 #TODO: A-I labels. R2 and n values
 
-p=align_plots(scatter_plot_with_labels, barplot, align = 'v', axis='tb')
-plot_grid(p[[1]], p[[2]], nrow=1, rel_widths = c(1,0.5))
+aligned=align_plots(scatter_plot_with_labels, barplot, align = 'v', axis='tb')
+final_figure = plot_grid(aligned[[1]], aligned[[2]], nrow=1, rel_widths = c(1,0.5))
+
+water_mark = 'Example figure for educational purposes only. Not made with real data.\n See github.com/sdtaylor/complex_figure_examples'
+
+final_figure = ggdraw(final_figure) +
+  geom_rect(data=data.frame(xmin=0.05,ymin=0.05), aes(xmin=xmin,ymin=ymin, xmax=xmin+0.4,ymax=ymin+0.1),alpha=0.9, fill='grey90', color='black') + 
+  draw_text(water_mark, x=0.05, y=0.1, size=10, hjust = 0)
+
+save_plot('./yan2019/final_figure.png', plot=final_figure, base_height = 8, base_width = 14)
