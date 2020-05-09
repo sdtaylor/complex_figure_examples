@@ -219,8 +219,6 @@ barplot = ggplot(barplot_data, aes(x=sensor, y=percent, fill=landcover)) +
 ####################################
 # And combine them
 
-#TODO: A-I labels. R2 and n values
-
 aligned=align_plots(scatter_plot_with_labels, barplot, align = 'v', axis='tb')
 final_figure = plot_grid(aligned[[1]], aligned[[2]], nrow=1, rel_widths = c(1,0.5))
 
