@@ -2,6 +2,17 @@ library(tidyverse)
 library(sf)
 library(cowplot)
 
+##################################
+# This is a replication of Figure 4 from the following paper
+# Dannenberg, M., Wang, X., Yan, D., & Smith, W. (2020). Phenological Characteristics of 
+# Global Ecosystems Based on Optical, Fluorescence, and Microwave Remote Sensing. 
+# Remote Sensing, 12(4), 671. https://doi.org/10.3390/rs12040671
+
+# This figure uses simulated data and is not an exact copy. 
+# It's meant for educational purposes only.  
+##################################
+
+
 # The data is supplied as a raster. Which is converted to an sf polygon object
 # by way of a SpatialPolygonDataframe.
 # The reason for this is the sf package has great support for plotting maps in different
@@ -48,8 +59,8 @@ phenoregion_colors = tribble(
 
 base_legend = ggplot(phenoregion_colors, aes(x=productivity, y=seasonality, 
                                fill=as.factor(phenoregion), alpha=as.factor(phenoregion))) +
-  geom_tile(colour='black', size=1) +
-  geom_text(aes(label=phenoregion), size=5, alpha=1, color='black') + 
+  geom_tile(colour='black', size=0.5) +
+  geom_text(aes(label=phenoregion), size=4, alpha=1, color='black') + 
   scale_fill_manual(values = phenoregion_colors$color) + 
   scale_alpha_manual(values = phenoregion_colors$alpha) +
   theme_nothing() +
@@ -58,16 +69,15 @@ base_legend = ggplot(phenoregion_colors, aes(x=productivity, y=seasonality,
 
 full_legend= ggdraw() + 
   draw_plot(base_legend, scale=0.6, hjust = -0.1, vjust=-0.1) +
-  draw_text('Productivity', x = 0.5, y=0.1, size=10) + 
-  draw_line(x=c(0.4, 0.8), y=c(0.25,0.25), size=1, arrow = arrow()) +
-  draw_text('Seasonality',  x = 0.12, y=0.35, size=10) +
-  draw_line(x=c(0.27, 0.27), y=c(0.35,0.75), size=1, arrow = arrow())
-
-#countries <- rnaturalearth::ne_countries(returnclass = "sf")
+  draw_text('Productivity', x = 0.55, y=0.1, size=14) + 
+  draw_line(x=c(0.4, 0.8), y=c(0.23,0.23), size=0.8, arrow = arrow(length=unit(4,'mm'))) +
+  draw_text('Seasonality',  x = 0.14, y=0.35, size=14) +
+  draw_line(x=c(0.27, 0.27), y=c(0.35,0.75), size=0.8, arrow = arrow(length=unit(4,'mm')))
 
 ############################################
 # Pie chart
 # Getting the order and the labels on this pie chart was a huge pain.
+# Note that the final pie chart labels are still a bit off.
 # Pie charts also have well studied problems. See https://stats.stackexchange.com/questions/8974/problems-with-pie-charts/
 # If you're thinking of doing something similar please consider just a barchart.
 
@@ -87,7 +97,7 @@ pie_chart_data = phenoregions %>%
   left_join(pie_chart_order, by='phenoregion') %>%
   arrange(pie_order)
 
-# The phenoregion ordering with in the factor is now coerced to the order specified above in pie_chart_order
+# The phenoregion ordering within the factor is now coerced to the order specified above in pie_chart_order
 pie_chart_data$phenoregion = fct_inorder(factor(pie_chart_data$phenoregion))
 
 # The labels around the pie chart can be done by labelling specific spots
@@ -113,7 +123,7 @@ pie_chart = ggplot(pie_chart_data, aes(x="", y=area, fill=phenoregion,alpha=phen
         panel.border = element_blank(),
         axis.title = element_blank(),
         axis.ticks = element_blank(),
-        axis.text = element_text(size=6, hjust = 2),
+        axis.text = element_text(size=10, hjust = 2),
         legend.position = 'none',
         legend.background = element_rect(color='black'),
         legend.title = element_blank())
@@ -133,8 +143,16 @@ map = ggplot(phenoregions) +
 #############################################
 # Put it together.
 
-ggdraw() +
-  draw_plot(map, x=0,y=0, scale=0.8, hjust = 0.1) +
-  draw_plot(pie_chart, scale=0.15, x=0.37, y=0.1) +
-  draw_plot(full_legend, scale=0.25, x=0.37, y=-0.1)
+final_figure = ggdraw() +
+                draw_plot(map, x=0,y=0, scale=0.8, hjust = 0.1) +
+                draw_plot(pie_chart, scale=0.4, x=0.38, y=0.1) +
+                draw_plot(full_legend, scale=0.35, x=0.35, y=-0.3)
 
+
+water_mark = 'Example figure for educational purposes only. Not made with real data.\n See github.com/sdtaylor/complex_figure_examples'
+
+final_figure = ggdraw(final_figure) +
+  geom_rect(data=data.frame(xmin=0.05,ymin=0.05), aes(xmin=xmin,ymin=ymin, xmax=xmin+0.4,ymax=ymin+0.1),alpha=0.9, fill='grey90', color='black') + 
+  draw_text(water_mark, x=0.05, y=0.1, size=10, hjust = 0)
+
+save_plot('./dannenberg2020/dannenberg2020_final.png', plot = final_figure, base_height = 5, base_width = 12)
