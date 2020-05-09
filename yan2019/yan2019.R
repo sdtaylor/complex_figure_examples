@@ -230,4 +230,4 @@ final_figure = ggdraw(final_figure) +
   geom_rect(data=data.frame(xmin=0.05,ymin=0.05), aes(xmin=xmin,ymin=ymin, xmax=xmin+0.4,ymax=ymin+0.1),alpha=0.9, fill='grey90', color='black') + 
   draw_text(water_mark, x=0.05, y=0.1, size=10, hjust = 0)
 
-save_plot('./yan2019/final_figure.png', plot=final_figure, base_height = 8, base_width = 14)
+save_plot('./yan2019/yan2019_final.png', plot=final_figure, base_height = 8, base_width = 14)
