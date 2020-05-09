@@ -204,6 +204,12 @@ bottom_row = plot_grid(plot_D, plot_E, labels = c('D','E'),
 
 top_row = plot_grid(plot_A_map, labels = c('A'))
 
-final_plot = plot_grid(top_row, middle_row, bottom_row, ncol=1, rel_widths = c(1,0.8,1), rel_heights = c(1.5,1,1.5))
+final_figure = plot_grid(top_row, middle_row, bottom_row, ncol=1, rel_widths = c(1,0.8,1), rel_heights = c(1.5,1,1.5))
 
-save_plot('./suggitt2019/suggitt2019_final.png',plot = final_plot, base_height = 13, base_width = 10)
+water_mark = 'Example figure for educational purposes only. Not made with real data.\n See github.com/sdtaylor/complex_figure_examples'
+
+final_figure = ggdraw(final_figure) +
+  geom_rect(data=data.frame(xmin=0.05,ymin=0.05), aes(xmin=xmin,ymin=ymin, xmax=xmin+0.4,ymax=ymin+0.1),alpha=0.9, fill='grey90', color='black') + 
+  draw_text(water_mark, x=0.05, y=0.1, size=10, hjust = 0)
+
+save_plot('./suggitt2019/suggitt2019_final.png',plot = final_figure, base_height = 13, base_width = 10)
