@@ -29,4 +29,5 @@ Dannenberg, M., Wang, X., Yan, D., & Smith, W. (2020). Phenological Characterist
 Guyton, J.A., Pansu, J., Hutchinson, M.C., Kartzinel, T.R., Potter, A.B., Coverdale, T.C., Daskin, J.H., da Conceição, A.G., Peel, M.J., Stalmans, M.E. and Pringle, R.M. (2020). Trophic rewilding revives biotic resistance to shrub invasion.  Nature Ecology & Evolution, 1-13. https://doi.org/10.1038/s41559-019-1068-y  
 [Figure Code](https://github.com/sdtaylor/complex_figure_examples/tree/master/guyton2020)  
 <img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/guyton2020/guyton2020_final.png" width="300">
+
 ------
