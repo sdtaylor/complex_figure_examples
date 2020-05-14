@@ -10,8 +10,6 @@ library(cowplot) # cowplot is used here just for the disclaimer watermark at the
 
 # Data used here are simulated, and not meant to replicate the original figure exactly.
 ##################################
-
-
 bats = c('Big brown*','Eastern red*','Hoary','Southeastern myotis',
          'Little brown','Evening','Tri-colored','Brazillian free-tailed')
 
@@ -32,7 +30,7 @@ all_data$habitat = factor(all_data$habitat, levels = habitats, ordered = TRUE)
 
 ##########################################
 # These lines are all that is needed for the basic figure outline. 
-# Everything else is just elements. 
+# Everything else is just theme elements. 
 primary_figure = ggplot(all_data, aes(y=fct_rev(habitat), x=occurance_prob_mean)) + 
   geom_errorbarh(aes(xmax = occurance_prob_upper, xmin = occurance_prob_lower),size=1, height=0) + # Height here  turns off vertical ends on error bars
   geom_point(size=4, color='black') +    # You could used the shape=1 argument here to get a circle instead of a solid point. But the error bar
@@ -46,7 +44,7 @@ final_figure = primary_figure +
   theme_bw(10) +
   theme(strip.background = element_blank(), # Turn off strip background so the bat names "float"
         panel.grid       = element_blank(), # turn off x/y grid lines
-        panel.background = element_rect(size=2, color='black'),
+        panel.background = element_rect(size=2, color='black'),  # make the border on each subplot bigger
         axis.ticks = element_line(size = 1),
         axis.text = element_text(size=10, face = 'bold', color='black'),
         axis.title = element_text(size=10, face = 'bold', color='black'),
