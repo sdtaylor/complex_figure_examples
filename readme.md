@@ -30,4 +30,11 @@ Guyton, J.A., Pansu, J., Hutchinson, M.C., Kartzinel, T.R., Potter, A.B., Coverd
 [Figure Code](https://github.com/sdtaylor/complex_figure_examples/tree/master/guyton2020)  
 <img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/guyton2020/guyton2020_final.png" width="300">
 
+------  
+### Ober et al. 2020 Figure 5
+Ober, H.K., Jones, G.M., Gottlieb, I.G., Johnson, S.A., Smith, L., Brosi, B. and Fletcher, R.J., Jr. (2020), Bat community response to intensification of biomass production for bioenergy across the southeastern USA. Ecological Applications https://doi.org/10.1002/eap.2155  
+[Figure Code](https://github.com/sdtaylor/complex_figure_examples/tree/master/ober2020)  
+<img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/ober2020/ober2020_final.png" width="300">
+
 ------
+
