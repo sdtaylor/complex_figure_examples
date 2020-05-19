@@ -37,10 +37,10 @@ Ober, H.K., Jones, G.M., Gottlieb, I.G., Johnson, S.A., Smith, L., Brosi, B. and
 <img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/ober2020/ober2020_final.png" width="300">
 
 ------  
-### Janssen et al. 2020 Figure 2
+### Janssen et al. 2020 Figure 3
 Janssen, T., Fleischer, K., Luyssaert, S., Naudts, K. and Dolman, H., 2020. Drought resistance increases from the individual to the ecosystem level in highly diverse neotropical rain forest: a meta-analysis of leaf, tree and ecosystem responses to drought. Biogeosciences. https://doi.org/10.5194/bg-17-2621-2020   
 [Figure Code](https://github.com/sdtaylor/complex_figure_examples/tree/master/janssen2020)  
-<img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/janssen2020/janssen2020-fig2_final.png" width="300">  
+<img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/janssen2020/janssen2020-fig3_final.png" width="300">  
 
 ------
 
