@@ -4,5 +4,5 @@ Janssen, T., Fleischer, K., Luyssaert, S., Naudts, K. and Dolman, H., 2020. Drou
 ## Figure 3 Notes
 Great example of a multi-plot figure with a shared x-axis, and where each subplot has a unique and categorical y-axis.
 
-## Reproduced Figure 2
+## Reproduced Figure 3
 ![](https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/janssen2020/janssen2020-fig3_final.png)
