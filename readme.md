@@ -42,5 +42,10 @@ Janssen, T., Fleischer, K., Luyssaert, S., Naudts, K. and Dolman, H., 2020. Drou
 [Figure Code](https://github.com/sdtaylor/complex_figure_examples/tree/master/janssen2020)  
 <img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/janssen2020/janssen2020-fig3_final.png" width="300">  
 
-------
+------  
+### Cottrell et al. 2020 Figure 1
+Cottrell, R.S., Blanchard, J.L., Halpern, B.S. et al. Global adoption of novel aquaculture feeds could substantially reduce forage fish demand by 2030. Nature Food 1, 301–308 (2020). https://doi.org/10.1038/s43016-020-0078-x  
+[Figure Code](https://github.com/sdtaylor/complex_figure_examples/tree/master/cottrell2020)  
+<img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/cottrell2020/cottrell2020_final.png" width="300">  
 
+------  
