@@ -1,1 +1,1201 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-50.625,-4.390228926463384]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-65.91796875,-1.318243056862001]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-66.62109375,-7.623886853120036]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-60.64453125000001,0.7909904981540058]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-60.029296875,-5.44102230371796]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-69.169921875,2.28455066023697]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-60.64453125000001,-9.44906182688142]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-73.388671875,-1.1425024037061522]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-73.47656249999999,-6.577303118123875]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-57.48046875,-5.9657536710655235]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-70.83984375,-10.574222078332806]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-62.84179687499999,6.664607562172573]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-71.015625,5.266007882805498]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-51.85546874999999,-6.926426847059551]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-54.404296875,-0.4394488164139641]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-75.41015624999999,-9.622414142924805]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-67.8515625,-2.108898659243126]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-64.599609375,-11.092165893501988]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-64.423828125,4.214943141390651]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-73.564453125,3.0746950723696944]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-65.91796875,-14.093957177836224]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-71.89453125,-13.838079936422462]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-76.552734375,-3.337953961416472]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-76.11328125,1.5818302639606454]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-64.86328125,-3.337953961416472]}},{"type":"Feature","properties":{"continent":"S America"},"geometry":{"type":"Point","coordinates":[-67.1484375,7.710991655433217]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[-11.162109375,7.623886853120049]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[-5.537109374999999,6.751896464843375]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[-7.294921874999999,7.18810087117902]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[-7.91015625,10.401377554543553]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[-2.548828125,7.710991655433217]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[-0.703125,9.188870084473406]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[-0.087890625,6.926426847059551]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[-2.109375,7.100892668623654]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[-3.076171875,10.746969318460001]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[-1.318359375,5.878332109674327]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[1.0546875,9.795677582829743]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[9.4921875,4.653079918274051]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[12.041015625,4.8282597468669755]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[11.689453125,3.2502085616531686]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[10.810546875,2.5479878714713835]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[10.634765625,2.1088986592431382]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[11.25,0.17578097424708533]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[13.095703125,2.3723687086440504]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[14.765625,5.353521355337334]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[13.447265624999998,0.17578097424708533]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[11.865234375,-0.7031073524364783]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[15.8203125,2.5479878714713835]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[13.18359375,-2.108898659243126]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[15.556640624999998,0.7909904981540058]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[13.447265624999998,6.140554782450308]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[26.7626953125,2.591888984149953]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[24.6533203125,0.615222552406841]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[38.14453125,-6.926426847059551]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[36.9580078125,-8.146242825034385]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[36.8701171875,-5.922044619883305]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[38.759765625,-4.915832801313164]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[36.8701171875,-6.708253968671543]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[37.8369140625,-4.34641127533318]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[38.056640625,-5.0909441750333855]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[38.056640625,-7.972197714386866]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[37.08984375,-5.484768018141262]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[28.696289062499996,2.767477951092084]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[33.0029296875,2.943040910055132]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[31.113281249999996,2.591888984149953]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[33.8818359375,2.28455066023697]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[32.1240234375,2.152813583128846]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[19.775390625,-0.08789059053082422]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[22.32421875,1.845383988573187]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[18.369140624999996,0]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[19.6875,2.1967272417616712]}},{"type":"Feature","properties":{"continent":"Africa"},"geometry":{"type":"Point","coordinates":[22.5,0.5712795966325395]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[100.01953125,-0.04394530819134536]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[116.76269531249999,6.096859818887948]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[116.3232421875,3.6888551431470478]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[117.1142578125,2.5040852618529215]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[114.43359375,2.4601811810210052]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[116.49902343749999,0.4394488164139768]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[113.818359375,0]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[115.53222656249999,-0.3515602939922709]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[111.796875,1.7136116598836224]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[113.4228515625,2.3723687086440504]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[115.31249999999999,3.2940822283128175]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[117.0703125,4.8282597468669755]}},{"type":"Feature","properties":{"continent":"Asia"},"geometry":{"type":"Point","coordinates":[117.0703125,1.845383988573187]}},{"type":"Feature","properties":{"continent":"Australia"},"geometry":{"type":"Point","coordinates":[144.140625,-14.944784875088372]}},{"type":"Feature","properties":{"continent":"Australia"},"geometry":{"type":"Point","coordinates":[144.931640625,-16.8886597873816]}},{"type":"Feature","properties":{"continent":"Australia"},"geometry":{"type":"Point","coordinates":[145.3271484375,-17.14079039331664]}},{"type":"Feature","properties":{"continent":"Australia"},"geometry":{"type":"Point","coordinates":[144.3603515625,-16.720385051693988]}},{"type":"Feature","properties":{"continent":"Australia"},"geometry":{"type":"Point","coordinates":[145.3271484375,-17.769612247142653]}},{"type":"Feature","properties":{"continent":"Australia"},"geometry":{"type":"Point","coordinates":[144.2724609375,-17.392579271057766]}},{"type":"Feature","properties":{"continent":"Australia"},"geometry":{"type":"Point","coordinates":[144.580078125,-18.18760655249461]}}]}
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -50.625,
+                    -4.390228926463384
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.91796875,
+                    -1.318243056862001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.62109375,
+                    -7.623886853120036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -60.64453125000001,
+                    0.7909904981540058
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -60.029296875,
+                    -5.44102230371796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -69.169921875,
+                    2.28455066023697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -60.64453125000001,
+                    -9.44906182688142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.388671875,
+                    -1.1425024037061522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.47656249999999,
+                    -6.577303118123875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -57.48046875,
+                    -5.9657536710655235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.83984375,
+                    -10.574222078332806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -62.84179687499999,
+                    6.664607562172573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.015625,
+                    5.266007882805498
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.85546874999999,
+                    -6.926426847059551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -54.404296875,
+                    -0.4394488164139641
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.41015624999999,
+                    -9.622414142924805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.8515625,
+                    -2.108898659243126
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.599609375,
+                    -11.092165893501988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.423828125,
+                    4.214943141390651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.564453125,
+                    3.0746950723696944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.91796875,
+                    -14.093957177836224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.89453125,
+                    -13.838079936422462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.552734375,
+                    -3.337953961416472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.11328125,
+                    1.5818302639606454
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.86328125,
+                    -3.337953961416472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "S America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.1484375,
+                    7.710991655433217
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -11.162109375,
+                    7.623886853120049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.537109374999999,
+                    6.751896464843375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.294921874999999,
+                    7.18810087117902
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.91015625,
+                    10.401377554543553
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.548828125,
+                    7.710991655433217
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.703125,
+                    9.188870084473406
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.087890625,
+                    6.926426847059551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.109375,
+                    7.100892668623654
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.076171875,
+                    10.746969318460001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.318359375,
+                    5.878332109674327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.0546875,
+                    9.795677582829743
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.4921875,
+                    4.653079918274051
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.041015625,
+                    4.8282597468669755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.689453125,
+                    3.2502085616531686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.810546875,
+                    2.5479878714713835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.634765625,
+                    2.1088986592431382
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.25,
+                    0.17578097424708533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.095703125,
+                    2.3723687086440504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.765625,
+                    5.353521355337334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.447265624999998,
+                    0.17578097424708533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.865234375,
+                    -0.7031073524364783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.8203125,
+                    2.5479878714713835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.18359375,
+                    -2.108898659243126
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.556640624999998,
+                    0.7909904981540058
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.447265624999998,
+                    6.140554782450308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.7626953125,
+                    2.591888984149953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.6533203125,
+                    0.615222552406841
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.14453125,
+                    -6.926426847059551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.9580078125,
+                    -8.146242825034385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.8701171875,
+                    -5.922044619883305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.759765625,
+                    -4.915832801313164
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.8701171875,
+                    -6.708253968671543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.8369140625,
+                    -4.34641127533318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.056640625,
+                    -5.0909441750333855
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.056640625,
+                    -7.972197714386866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.08984375,
+                    -5.484768018141262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.696289062499996,
+                    2.767477951092084
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.0029296875,
+                    2.943040910055132
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.113281249999996,
+                    2.591888984149953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.8818359375,
+                    2.28455066023697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.1240234375,
+                    2.152813583128846
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.775390625,
+                    -0.08789059053082422
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.32421875,
+                    1.845383988573187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.369140624999996,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.6875,
+                    2.1967272417616712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Africa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.5,
+                    0.5712795966325395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.01953125,
+                    -0.04394530819134536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.76269531249999,
+                    6.096859818887948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.3232421875,
+                    3.6888551431470478
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.1142578125,
+                    2.5040852618529215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.43359375,
+                    2.4601811810210052
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.49902343749999,
+                    0.4394488164139768
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.818359375,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.53222656249999,
+                    -0.3515602939922709
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.796875,
+                    1.7136116598836224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.4228515625,
+                    2.3723687086440504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.31249999999999,
+                    3.2940822283128175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.0703125,
+                    4.8282597468669755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Asia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.0703125,
+                    1.845383988573187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Australia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.140625,
+                    -14.944784875088372
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Australia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.931640625,
+                    -16.8886597873816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Australia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3271484375,
+                    -17.14079039331664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Australia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3603515625,
+                    -16.720385051693988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Australia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3271484375,
+                    -17.769612247142653
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Australia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.2724609375,
+                    -17.392579271057766
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "continent": "Australia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.580078125,
+                    -18.18760655249461
+                ]
+            }
+        }
+    ]
+}
