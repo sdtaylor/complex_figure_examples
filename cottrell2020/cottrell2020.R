@@ -104,7 +104,7 @@ barplot = ggplot(barplot_data, aes(x=scenario, y=demand, fill=scenario)) +
         panel.grid = element_blank(),
         axis.line = element_line(color='grey80'),
         axis.text = element_text(color='black')) +
-  labs(y='Forage fish demand (tonnes)', x='Aquaculuture 2030 scenario')
+  labs(y='Forage fish demand (tonnes)', x='Aquaculture 2030 scenario')
 
 #######################################################
 fish = png::readPNG('cottrell2020/fish.png')
