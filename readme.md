@@ -55,4 +55,10 @@ Craven, D., Knight, T.M., Barton, K.E., Bialic-Murphy, L. and Chase, J.M., 2019.
 <img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/craven2019/craven2019_final.png" width="300">  
 
 ------  
+### Reyes & Elias 2019 Figure 5
+Reyes, J. J., & Elias, E. (2019). Spatio-temporal variation of crop loss in the United States from 2001 to 2016. Environmental Research Letters, 14(7), 074017. https://doi.org/10.1088/1748-9326/ab1ac9  
+[Figure Code](https://github.com/sdtaylor/complex_figure_examples/tree/master/reyes2019)  
+<img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/reyes2019/reyes2019_final.png" width="300">  
+
+------  
 
