@@ -61,4 +61,10 @@ Reyes, J. J., & Elias, E. (2019). Spatio-temporal variation of crop loss in the 
 <img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/reyes2019/reyes2019_final.png" width="300">  
 
 ------  
+### Sullivan et al. 2020 Figure 1
+Sullivan et al. 2020. Long-term thermal sensitivity of Earth’s tropical forests. Science. 368:6493, 869-874. https://doi.org/10.1126/science.aaw7578  
+[Figure Code](https://github.com/sdtaylor/complex_figure_examples/tree/master/sullivan2020)  
+<img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/sullivan2020/sullivan2020_final.png" width="300">  
+
+------  
 
