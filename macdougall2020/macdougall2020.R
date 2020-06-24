@@ -97,7 +97,7 @@ barplot_a = ggplot(flux_data_long,aes(x=model, y=flux_value, fill=flux_var)) +
 
 
 barplot_b = ggplot(flux_data, aes(x=model, y=zec)) + 
-  geom_col(fill='black') +
+  geom_col(width=0.5, fill='black') +
   geom_hline(yintercept = 0) +
   ylim(-0.4,0.4) + 
   theme_bw(5) + 
@@ -110,8 +110,7 @@ barplot_b = ggplot(flux_data, aes(x=model, y=zec)) +
         legend.title = element_blank()) +
   labs(x='', y='ZEC (°C)')
 
-
-final_figure = plot_grid(barplot_a, barplot_b, ncol=1, rel_heights = c(1,0.5), 
+final_figure = plot_grid(barplot_a, barplot_b, ncol=1, rel_heights = c(1,0.5), align = 'h', axis='lr',
                          labels = c('(a)','(b)'), label_size=7, label_x = 0.96, label_y=0.99, label_fontface = 'plain')
 
 #############################################
