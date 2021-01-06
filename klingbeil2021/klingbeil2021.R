@@ -47,8 +47,9 @@ grass = png::readPNG('klingbeil2021/animals/PhyloPic.822f98c6.Mason-McNair.Paspa
 #-------------------------------
 
 main_figure = ggplot(figure_data, aes(x=bird_type, y=marsh_area_percent, fill=model_type)) +
-  geom_col(aes(y=1), position = position_dodge(width = 0.9),width=0.8, alpha=0.2) +     # This first geom_col is for the faint colored bars
+  geom_col(aes(y=1), position = position_dodge(width = 0.9),width=0.8, alpha=0.2) +     # This first geom_col is for the faint colored bars.
   geom_col(position = position_dodge(width=0.9), width = 0.8) +                         # This geom_col draws the primary colored bars
+                                                                                        # Both sets of bars have the same fill color, but the larger ones are made fainter with alpha.
                                                                                         # The width inside position_dodge() controls distance between grey/green bars.
                                                                                         # Width for geom_col controls distance between paired bars (ie. between the bird types)
   scale_fill_manual(values=c('darkgreen','grey20')) + 
