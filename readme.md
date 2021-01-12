@@ -18,5 +18,6 @@ Everything is done in R using the packages `ggplot2`,`cowplot`, and  sometimes `
 <a href='https://github.com/sdtaylor/complex_figure_examples/tree/master/zhang2020'><img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/zhang2020/zhang2020_final.png" width="30%" title="Zhang et al. 2020"></a>
 <a href='https://github.com/sdtaylor/complex_figure_examples/tree/master/klingbeil2021'><img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/klingbeil2021/klingbeil2021_final.png" width="30%" title="Klingbeil et al. 2021"></a>
 <a href='https://github.com/sdtaylor/complex_figure_examples/tree/master/thein2020'><img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/thein2020/thein2020_final.png" width="30%" title="Thein et al. 2020"></a>
+<br>
 <a href='https://github.com/sdtaylor/complex_figure_examples/tree/master/suggitt2019'><img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/suggitt2019/suggitt2019_final.png" width="45%" title="Suggitt et al. 2019"></a>
 <a href='https://github.com/sdtaylor/complex_figure_examples/tree/master/janssen2020'><img src="https://raw.githubusercontent.com/sdtaylor/complex_figure_examples/master/janssen2020/janssen2020-fig3_final.png" width="45%" title="Janssen et al. 2020"></a>
